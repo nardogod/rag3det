@@ -8,6 +8,7 @@ interface CardCombateProps {
 
 export function CardCombate({ lado, batalha }: CardCombateProps) {
   const dados = lado === "jogador" ? batalha.jogador : batalha.monstro;
+  const dadosJogador = lado === "jogador" ? batalha.jogador : null;
 
   const barra = (atual: number, max: number, cor: string) => {
     const width = max > 0 ? `${Math.round((atual / max) * 100)}%` : "0%";
@@ -71,10 +72,10 @@ export function CardCombate({ lado, batalha }: CardCombateProps) {
         </div>
       </div>
 
-      {lado === "jogador" && (
+      {dadosJogador && (
         <div className="mt-3 space-y-2">
           {(() => {
-            const info = calcularNivel(dados.experiencia ?? 0);
+            const info = calcularNivel(dadosJogador.experiencia ?? 0);
             return (
               <>
                 <div className="flex items-center justify-between text-[11px] text-stone-600">
@@ -95,13 +96,13 @@ export function CardCombate({ lado, batalha }: CardCombateProps) {
             );
           })()}
 
-          {dados.itensEquipados && dados.itensEquipados.length > 0 && (
+          {dadosJogador.itensEquipados && dadosJogador.itensEquipados.length > 0 && (
             <div className="pt-1 border-t border-stone-200">
               <p className="mb-1 text-[10px] font-semibold uppercase text-stone-600">
                 Itens equipados
               </p>
               <div className="flex flex-wrap gap-1">
-                {dados.itensEquipados.map((nome) => (
+                {dadosJogador.itensEquipados.map((nome: string) => (
                   <span
                     key={nome}
                     className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-700"

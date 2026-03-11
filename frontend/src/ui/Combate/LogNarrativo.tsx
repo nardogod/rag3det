@@ -1,11 +1,12 @@
+import type { ReactNode } from "react";
 import type { MensagemMestre } from "@/core/combat/types";
 
 interface LogNarrativoProps {
   mensagens: MensagemMestre[];
 }
 
-function formatarTextoComDados(texto: string): JSX.Element[] {
-  const partes: JSX.Element[] = [];
+function formatarTextoComDados(texto: string): ReactNode[] {
+  const partes: ReactNode[] = [];
   const regex = /1d6=(\d)/g;
   let ultimoIndice = 0;
   let match: RegExpExecArray | null;

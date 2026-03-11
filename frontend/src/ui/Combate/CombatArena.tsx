@@ -1,5 +1,4 @@
 import { useState } from "react";
-import type { EstadoCombateVisao } from "@/store/combatStore";
 import { useCombatStore } from "@/store/combatStore";
 import { usePersonagensStore } from "@/store/personagensStore";
 import { TIPOS_ITENS, getItensPorTipo } from "@/data/itens";
