@@ -20,9 +20,6 @@ const HabilidadesMonstrosPage = lazy(() =>
 const ItensPage = lazy(() =>
   import("@/ui/Itens/ItensPage").then((m) => ({ default: m.ItensPage }))
 );
-const ChatPage = lazy(() =>
-  import("@/ui/Chat/ChatPage").then((m) => ({ default: m.ChatPage }))
-);
 const CombatPage = lazy(() =>
   import("@/ui/Combate/CombatPage").then((m) => ({ default: m.CombatPage }))
 );
@@ -86,14 +83,6 @@ function App() {
             element={
               <Suspense fallback={<div className="p-4 text-stone-600">Carregando Ficha…</div>}>
                 <FichaPersonagemPage />
-              </Suspense>
-            }
-          />
-          <Route
-            path="chat"
-            element={
-              <Suspense fallback={<div className="p-4 text-stone-600">Carregando Chat…</div>}>
-                <ChatPage />
               </Suspense>
             }
           />

@@ -25,7 +25,7 @@ Este repositório foi organizado para servir tanto como base de desenvolvimento 
 ## Links de portfólio
 
 - **Frontend do jogo:** `adicione-aqui-o-link-do-vercel-ou-netlify`
-- **Assistente RAG:** `adicione-aqui-o-link-do-streamlit-ou-railway`
+- **Assistente RAG (Streamlit):** `adicione-aqui-o-link-do-streamlit`
 - **Repositório GitHub:** `adicione-aqui-o-link-do-repo-publico`
 
 ## Rodando localmente
@@ -70,6 +70,8 @@ npm run build
 npm run dev
 ```
 
+O chat público fica no app Streamlit. O frontend publicado no Vercel fica focado no jogo.
+
 ## Deploy recomendado
 
 ### Frontend
@@ -86,7 +88,7 @@ Como a aplicação usa `BrowserRouter`, este repositório já inclui configuraç
 
 Publicar o chat em **Streamlit Community Cloud** ou **Railway**:
 
-- Entry point: `app/main.py`
+- Entry point recomendado: `streamlit_app.py`
 - Dependências: `requirements.txt`
 - Variáveis de ambiente: baseadas em `.env.example`
 - Provedor recomendado em nuvem: `openai`
@@ -115,6 +117,7 @@ O `.gitignore` da raiz protege os principais artefatos locais:
 - `docs/CURSO_RAG_ML_PORTFOLIO.md`
 - `docs/CURSO_RAG_ML_PORTFOLIO_EXTENSO.md`
 - `docs/GIT_E_DEPLOY.md`
+- `docs/STREAMLIT_DEPLOY.md`
 
 ## Observações práticas
 

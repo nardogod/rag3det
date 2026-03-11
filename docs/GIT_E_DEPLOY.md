@@ -109,11 +109,17 @@ QUERY_EXPANSION_ENABLED=true
 Boa opção para demo pública simples.
 
 1. Conecte o repositório.
-2. Escolha `app/main.py` como arquivo principal.
+2. Escolha `streamlit_app.py` como arquivo principal.
 3. Adicione as variáveis de ambiente.
 4. Publique.
 
 Use Streamlit Cloud se você tiver uma estratégia para o índice já pronto. Como este projeto usa Chroma local, o caminho mais simples é publicar uma demo com um índice leve e já preparado.
+
+Observação:
+
+- o chat foi removido do frontend do Vercel para simplificar a produção;
+- o Vercel fica focado no jogo;
+- o chat público fica no Streamlit.
 
 ### Railway
 
