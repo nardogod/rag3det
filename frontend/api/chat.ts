@@ -3,10 +3,16 @@ import monstros from "../src/data/monstros.json";
 import vantagens from "../src/data/vantagens_turbinado.json";
 
 type ChatRole = "user" | "assistant";
+type ChatLanguage = "pt" | "en";
 
 interface ChatMessage {
   role: ChatRole;
   content: string;
+}
+
+interface ChatRequestBody {
+  messages?: ChatMessage[];
+  language?: ChatLanguage;
 }
 
 interface KnowledgeEntry {
@@ -140,9 +146,11 @@ function retrieveContext(query: string): KnowledgeEntry[] {
     .map((item) => item.entry);
 }
 
-function fallbackAnswer(query: string, context: KnowledgeEntry[]): string {
+function fallbackAnswer(query: string, context: KnowledgeEntry[], language: ChatLanguage): string {
   if (context.length === 0) {
-    return `Não encontrei dados suficientes na base publicada para responder sobre "${query}". Tente citar o nome exato da magia, vantagem, item ou monstro.`;
+    return language === "en"
+      ? `I could not find enough data in the published knowledge base to answer "${query}". Try using the exact name of the spell, advantage, item, or monster.`
+      : `Não encontrei dados suficientes na base publicada para responder sobre "${query}". Tente citar o nome exato da magia, vantagem, item ou monstro.`;
   }
 
   const lines = context.map(
@@ -151,20 +159,28 @@ function fallbackAnswer(query: string, context: KnowledgeEntry[]): string {
   );
 
   return [
-    `Encontrei ${context.length} referência(s) relevantes para "${query}".`,
+    language === "en"
+      ? `I found ${context.length} relevant reference(s) for "${query}".`
+      : `Encontrei ${context.length} referência(s) relevantes para "${query}".`,
     "",
     ...lines,
     "",
-    "Se você configurar OPENAI_API_KEY no Vercel, eu também consigo sintetizar uma resposta mais natural a partir dessas fontes.",
+    language === "en"
+      ? "If you configure OPENAI_API_KEY on Vercel, I can also synthesize a more natural answer from these sources."
+      : "Se você configurar OPENAI_API_KEY no Vercel, eu também consigo sintetizar uma resposta mais natural a partir dessas fontes.",
   ].join("\n");
 }
 
-async function generateAnswerWithOpenAI(query: string, context: KnowledgeEntry[]): Promise<string> {
+async function generateAnswerWithOpenAI(
+  query: string,
+  context: KnowledgeEntry[],
+  language: ChatLanguage
+): Promise<string> {
   const apiKey = process.env.OPENAI_API_KEY;
   const model = process.env.OPENAI_MODEL_NAME || "gpt-4.1-mini";
 
   if (!apiKey) {
-    return fallbackAnswer(query, context);
+    return fallbackAnswer(query, context, language);
   }
 
   const contextText =
@@ -190,11 +206,16 @@ async function generateAnswerWithOpenAI(query: string, context: KnowledgeEntry[]
         {
           role: "system",
           content:
-            "Você é um assistente de 3D&T. Responda em português, use apenas as fontes fornecidas, cite os nomes das fontes quando possível e diga claramente quando a base publicada não contiver informação suficiente.",
+            language === "en"
+              ? "You are a 3D&T assistant. Answer in English, use only the provided sources, cite source names when possible, and clearly say when the published knowledge base does not contain enough information."
+              : "Você é um assistente de 3D&T. Responda em português, use apenas as fontes fornecidas, cite os nomes das fontes quando possível e diga claramente quando a base publicada não contiver informação suficiente.",
         },
         {
           role: "user",
-          content: `Pergunta: ${query}\n\nFontes disponíveis:\n${contextText}`,
+          content:
+            language === "en"
+              ? `Question: ${query}\n\nAvailable sources:\n${contextText}`
+              : `Pergunta: ${query}\n\nFontes disponíveis:\n${contextText}`,
         },
       ],
     }),
@@ -209,7 +230,7 @@ async function generateAnswerWithOpenAI(query: string, context: KnowledgeEntry[]
     choices?: Array<{ message?: { content?: string } }>;
   };
 
-  return payload.choices?.[0]?.message?.content?.trim() || fallbackAnswer(query, context);
+  return payload.choices?.[0]?.message?.content?.trim() || fallbackAnswer(query, context, language);
 }
 
 export default async function handler(request: { method?: string; body?: unknown }, response: {
@@ -225,18 +246,23 @@ export default async function handler(request: { method?: string; body?: unknown
   }
 
   const body =
-    typeof request.body === "string" ? JSON.parse(request.body) : (request.body as { messages?: ChatMessage[] });
+    typeof request.body === "string"
+      ? (JSON.parse(request.body) as ChatRequestBody)
+      : (request.body as ChatRequestBody);
   const messages = Array.isArray(body?.messages) ? body.messages : [];
+  const language: ChatLanguage = body?.language === "en" ? "en" : "pt";
   const question = [...messages].reverse().find((message) => message.role === "user")?.content?.trim();
 
   if (!question) {
-    response.status(400).json({ error: "Pergunta inválida." });
+    response
+      .status(400)
+      .json({ error: language === "en" ? "Invalid question." : "Pergunta inválida." });
     return;
   }
 
   try {
     const context = retrieveContext(question);
-    const answer = await generateAnswerWithOpenAI(question, context);
+    const answer = await generateAnswerWithOpenAI(question, context, language);
 
     response.json({
       answer,

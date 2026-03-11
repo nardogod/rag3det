@@ -1,6 +1,7 @@
 import { FormEvent, useMemo, useState } from "react";
 
 type ChatRole = "user" | "assistant";
+type ChatLanguage = "pt" | "en";
 
 interface ChatSource {
   title: string;
@@ -20,6 +21,7 @@ interface ChatApiResponse {
 }
 
 export function ChatPage() {
+  const [language, setLanguage] = useState<ChatLanguage>("pt");
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
@@ -52,6 +54,7 @@ export function ChatPage() {
         },
         body: JSON.stringify({
           messages: nextMessages,
+          language,
         }),
       });
 
@@ -77,7 +80,9 @@ export function ChatPage() {
         {
           role: "assistant",
           content:
-            "Não consegui responder agora. Verifique se a função `/api/chat` está publicada no Vercel e se a chave da OpenAI foi configurada.",
+            language === "en"
+              ? "I could not answer right now. Check whether `/api/chat` is deployed on Vercel and whether the OpenAI key was configured."
+              : "Não consegui responder agora. Verifique se a função `/api/chat` está publicada no Vercel e se a chave da OpenAI foi configurada.",
         },
       ]);
     } finally {
@@ -93,6 +98,20 @@ export function ChatPage() {
           Chat disponível no mesmo deploy do Vercel. As respostas são ancoradas nos dados publicados
           junto com o app e exibem as fontes usadas.
         </p>
+        <div className="mt-4 flex items-center gap-3">
+          <label htmlFor="chat-language" className="text-sm font-medium text-stone-700">
+            Idioma da resposta
+          </label>
+          <select
+            id="chat-language"
+            value={language}
+            onChange={(event) => setLanguage(event.target.value as ChatLanguage)}
+            className="rounded-lg border border-stone-300 bg-stone-50 px-3 py-2 text-sm text-stone-800 focus:border-amber-500"
+          >
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+          </select>
+        </div>
       </div>
 
       <div className="rounded-xl border-2 border-stone-300 bg-white p-4 shadow-sm">
@@ -133,13 +152,18 @@ export function ChatPage() {
             value={prompt}
             onChange={(event) => setPrompt(event.target.value)}
             rows={4}
-            placeholder="Ex.: O que faz a vantagem Área de Batalha? Quais são os dados do Dragão do Ar?"
+            placeholder={
+              language === "en"
+                ? "Example: What does the Area of Battle advantage do? What are the Air Dragon stats?"
+                : "Ex.: O que faz a vantagem Área de Batalha? Quais são os dados do Dragão do Ar?"
+            }
             className="w-full rounded-xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-stone-800 outline-none ring-0 placeholder:text-stone-400 focus:border-amber-500"
           />
           <div className="flex items-center justify-between gap-3">
             <p className="text-xs text-stone-500">
-              Dica: perguntas com nome exato de magia, monstro ou vantagem tendem a trazer respostas
-              melhores.
+              {language === "en"
+                ? "Tip: questions that include the exact name of a spell, monster, item, or advantage usually return better answers."
+                : "Dica: perguntas com nome exato de magia, monstro ou vantagem tendem a trazer respostas melhores."}
             </p>
             <button
               type="submit"
@@ -150,7 +174,7 @@ export function ChatPage() {
                   : "cursor-not-allowed bg-stone-200 text-stone-500"
               }`}
             >
-              Enviar
+              {language === "en" ? "Send" : "Enviar"}
             </button>
           </div>
           {error && <p className="text-xs text-red-600">{error}</p>}
