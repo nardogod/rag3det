@@ -10,6 +10,7 @@ Built to demonstrate production-oriented work for **ML / AI / RAG**, **Python ba
 - **Live Streamlit assistant:** [rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app](https://rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app/)
 - **Domain:** 3D&T, a Brazilian tabletop RPG system
 - **Core work:** PDF ingestion, chunking, embeddings, hybrid retrieval, reranking, domain reindexing, demo-safe cloud fallback
+- **Current live status:** public demo assistant is live; the full cloud RAG release is not launched yet
 - **Delivery model:** AI-driven development workflow using Cursor as coding copilot, with product direction, architecture, validation, debugging, and integration decisions led by me
 
 ## Live Demos
@@ -119,28 +120,30 @@ The Streamlit app is the **assistant**:
 - tries the deployed RAG flow first
 - if indexed chunks are unavailable in cloud, it falls back to a **demo knowledge mode** using versioned project data
 - remains useful for portfolio and recruiter testing even without full Chroma/PDF rebuild in the cloud
+- should be understood as a **live demo**, not the final full-production RAG release
 
 ## What The Chat Accepts Right Now
 
-The chat currently works best for:
+The current live assistant works best for:
 
-- monster lookup
-- spell lookup
-- fire-related spell queries
-- advantages / disadvantages / race lookup
-- item lookup
+- exact monster lookup
+- exact advantage lookup
+- exact spell lookup
+- fire spell requests
 - simple greeting / smoke test prompts
+
+It is **not** the full released RAG product yet. The live Streamlit version is a portfolio-safe demo deployment with a narrower public answer surface.
 
 ## Example Chat Prompts
 
-Use these exact examples in the live Streamlit app:
+Use prompts close to these in the live Streamlit app:
 
 ```text
-Hi
+Oi
 ```
 
 ```text
-What are the fire spells?
+Quais as magias de fogo?
 ```
 
 ```text
@@ -148,31 +151,15 @@ Abelha Feral Operária
 ```
 
 ```text
-Fera Mãe
+Área de Batalha
 ```
 
 ```text
-What does Área de Batalha do?
+Aceleração
 ```
 
 ```text
-What does Aceleração do?
-```
-
-```text
-What is Adaptador?
-```
-
-```text
-What is the Katana item?
-```
-
-```text
-What is Leather Armor used for?
-```
-
-```text
-How does race work in this project?
+Adaptador
 ```
 
 ## RAG Scope Implemented In The Codebase
@@ -226,6 +213,8 @@ npm run dev
 
 ## Notes
 
+- The live Streamlit assistant is a **demo deployment** meant for portfolio and recruiter review
+- The full cloud version of the RAG system has **not been officially released yet**
 - The Streamlit deployment is optimized for **portfolio availability**, not for full cloud-side index rebuilding
 - The frontend and assistant are intentionally split so each can be tested live with low friction
 - The codebase reflects an **AI-assisted build process**, but the engineering ownership, direction, validation, and deployment decisions were mine
