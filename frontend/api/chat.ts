@@ -1,7 +1,3 @@
-import itens from "../src/data/itens_3dt.json";
-import monstros from "../src/data/monstros.json";
-import vantagens from "../src/data/vantagens_turbinado.json";
-
 type ChatRole = "user" | "assistant";
 type ChatLanguage = "pt" | "en";
 
@@ -23,6 +19,7 @@ interface KnowledgeEntry {
 }
 
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
+let knowledgeBasePromise: Promise<KnowledgeEntry[]> | null = null;
 
 function normalize(value: string): string {
   return value
@@ -42,7 +39,13 @@ function safeString(value: unknown): string {
   return typeof value === "string" ? value : "";
 }
 
-function buildKnowledgeBase(): KnowledgeEntry[] {
+async function buildKnowledgeBase(): Promise<KnowledgeEntry[]> {
+  const [{ default: itens }, { default: monstros }, { default: vantagens }] = await Promise.all([
+    import("../src/data/itens_3dt.json"),
+    import("../src/data/monstros.json"),
+    import("../src/data/vantagens_turbinado.json"),
+  ]);
+
   const monstroEntries = (Array.isArray(monstros) ? monstros : []).map((monstro) => {
     const habilidades = Array.isArray(monstro.habilidades) ? monstro.habilidades.join("; ") : "";
     const ataques = Array.isArray(monstro.ataques_especificos)
@@ -115,7 +118,12 @@ function buildKnowledgeBase(): KnowledgeEntry[] {
   );
 }
 
-const knowledgeBase = buildKnowledgeBase();
+async function getKnowledgeBase(): Promise<KnowledgeEntry[]> {
+  if (!knowledgeBasePromise) {
+    knowledgeBasePromise = buildKnowledgeBase();
+  }
+  return knowledgeBasePromise;
+}
 
 function scoreEntry(entry: KnowledgeEntry, query: string): number {
   const normalizedQuery = normalize(query);
@@ -137,7 +145,8 @@ function scoreEntry(entry: KnowledgeEntry, query: string): number {
   return score;
 }
 
-function retrieveContext(query: string): KnowledgeEntry[] {
+async function retrieveContext(query: string): Promise<KnowledgeEntry[]> {
+  const knowledgeBase = await getKnowledgeBase();
   return knowledgeBase
     .map((entry) => ({ entry, score: scoreEntry(entry, query) }))
     .filter((item) => item.score > 0)
@@ -245,10 +254,16 @@ export default async function handler(request: { method?: string; body?: unknown
     return;
   }
 
-  const body =
-    typeof request.body === "string"
-      ? (JSON.parse(request.body) as ChatRequestBody)
-      : (request.body as ChatRequestBody);
+  let body: ChatRequestBody;
+  try {
+    body =
+      typeof request.body === "string"
+        ? (JSON.parse(request.body) as ChatRequestBody)
+        : ((request.body as ChatRequestBody) || {});
+  } catch {
+    response.status(400).json({ error: "Invalid request body." });
+    return;
+  }
   const messages = Array.isArray(body?.messages) ? body.messages : [];
   const language: ChatLanguage = body?.language === "en" ? "en" : "pt";
   const question = [...messages].reverse().find((message) => message.role === "user")?.content?.trim();
@@ -261,7 +276,7 @@ export default async function handler(request: { method?: string; body?: unknown
   }
 
   try {
-    const context = retrieveContext(question);
+    const context = await retrieveContext(question);
     const answer = await generateAnswerWithOpenAI(question, context, language);
 
     response.json({
