@@ -4,7 +4,7 @@ import logging
 import re
 from typing import Iterable, List, Tuple
 
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters.character import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
 from src.config import chunking_config
