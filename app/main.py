@@ -20,8 +20,6 @@ if Path.cwd() != Path(__file__).resolve().parents[1]:
 import streamlit as st
 
 from src.generation.qa_chain import answer_question
-from src.ingestion.pipeline import run_ingestion
-from src.vectorstore.chroma_store import build_or_update_vectorstore
 from src.evaluation.response_validator import validate_response
 from src.evaluation.feedback_loop import save_feedback
 
@@ -51,6 +49,11 @@ with st.sidebar:
         if st.button("Reconstruir índice a partir dos PDFs"):
             with st.spinner("Carregando PDFs, limpando texto e gerando chunks..."):
                 try:
+                    from src.ingestion.pipeline import run_ingestion
+                    from src.vectorstore.chroma_store import (
+                        build_or_update_vectorstore,
+                    )
+
                     chunks = run_ingestion()
                     if not chunks:
                         st.warning("Nenhum PDF foi carregado. Verifique SOURCE_PDF_DIR no .env e se há arquivos .pdf no diretório.")
