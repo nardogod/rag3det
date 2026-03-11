@@ -19,6 +19,7 @@ if Path.cwd() != Path(__file__).resolve().parents[1]:
 
 import streamlit as st
 
+from src.demo_chat import answer_demo_question
 from src.generation.qa_chain import answer_question
 from src.evaluation.response_validator import validate_response
 from src.evaluation.feedback_loop import save_feedback
@@ -37,6 +38,7 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
 enable_index_rebuild = os.getenv("ENABLE_INDEX_REBUILD", "true").lower() == "true"
+enable_demo_fallback = os.getenv("ENABLE_DEMO_FALLBACK", "true").lower() == "true"
 
 # Sidebar: parâmetros e botão de rebuild
 with st.sidebar:
@@ -109,6 +111,12 @@ if prompt := st.chat_input("Sua pergunta sobre 3D&T"):
         with st.spinner("Buscando nos livros e gerando resposta..."):
             try:
                 result = answer_question(prompt, k=k)
+                if enable_demo_fallback and not result.sources and (
+                    "Não encontrei trechos relevantes" in result.answer
+                    or "Erro ao gerar resposta" in result.answer
+                    or "O Ollama não está rodando" in result.answer
+                ):
+                    result = answer_demo_question(prompt)
                 reply_content = result.answer
                 reply_sources = result.sources
                 st.markdown(reply_content)
