@@ -12,6 +12,12 @@ export function AppLayout() {
             3D&T Idle
           </Link>
           <Link
+            to="/chat"
+            className="text-stone-600 hover:text-amber-700"
+          >
+            Chat
+          </Link>
+          <Link
             to="/combate"
             className="text-stone-600 hover:text-amber-700"
           >

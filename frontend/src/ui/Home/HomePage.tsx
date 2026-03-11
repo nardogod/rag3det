@@ -162,6 +162,12 @@ export function HomePage() {
       {/* Links rápidos */}
       <section className="flex flex-wrap gap-3">
         <Link
+          to="/chat"
+          className="inline-block rounded-lg bg-stone-800 px-6 py-3 font-medium text-white hover:bg-stone-900"
+        >
+          Abrir Chat
+        </Link>
+        <Link
           to="/bestiario"
           className="inline-block rounded-lg bg-amber-500 px-6 py-3 font-medium text-white hover:bg-amber-600"
         >
