@@ -1,64 +1,210 @@
-## Projeto RAG 3D&T + Idle RPG
+# RAG 3D&T + Idle RPG
 
-Projeto híbrido com duas frentes:
+AI-driven full-stack portfolio project combining a **RAG assistant for 3D&T** and a **React idle RPG frontend**.
 
-- **Backend RAG em Python** para responder perguntas sobre os livros de 3D&T usando ingestão de PDFs, embeddings, ChromaDB, retrieval híbrido e reranker.
-- **Frontend Idle RPG em React + TypeScript** com bestiário, ficha de personagem, combate e dados estruturados do universo 3D&T.
+Built to demonstrate production-oriented work for **ML / AI / RAG**, **Python backend**, **frontend**, and **full-stack** roles.
 
-Este repositório foi organizado para servir tanto como base de desenvolvimento quanto como portfólio técnico para vagas de **ML/IA/RAG**, **Backend Python** e **Full Stack**.
+## TL;DR
 
-## Stack
+- **Live frontend:** [rag3det.vercel.app](https://rag3det.vercel.app/)
+- **Live Streamlit assistant:** [rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app](https://rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app/)
+- **Domain:** 3D&T, a Brazilian tabletop RPG system
+- **Core work:** PDF ingestion, chunking, embeddings, hybrid retrieval, reranking, domain reindexing, demo-safe cloud fallback
+- **Delivery model:** AI-driven development workflow using Cursor as coding copilot, with product direction, architecture, validation, debugging, and integration decisions led by me
+
+## Live Demos
+
+- **Frontend game (Vercel):** [https://rag3det.vercel.app/](https://rag3det.vercel.app/)
+- **RAG assistant (Streamlit):** [https://rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app/](https://rag3det-mhqboqu9qgsccf3fxsbq8c.streamlit.app/)
+
+Both are live.
+
+## What This Project Is
+
+- A **Python RAG backend** for 3D&T rules, monsters, advantages, items, and related game knowledge
+- A **React + TypeScript idle RPG frontend** with character sheet, bestiary, items, and combat
+- A portfolio-ready case of **AI-assisted software delivery**, from data extraction to deployment
+
+## My Role
+
+This project was developed with an **AI-driven coding workflow**, but the responsibilities were mine:
+
+- product direction and feature definition
+- software architecture and folder boundaries
+- RAG design choices and data modeling
+- debugging and production fixes
+- deployment strategy for Vercel and Streamlit
+- validation of code, flows, and output quality
+
+In practice, I acted as:
+
+- ML / RAG engineer
+- Python backend developer
+- React / TypeScript frontend developer
+- game systems implementer
+- technical product owner
+
+## Tech Stack
 
 - **Backend:** Python, Streamlit, FastAPI, LangChain, ChromaDB, sentence-transformers, BM25, SQLite
 - **Frontend:** React 19, TypeScript, Vite, Zustand, Tailwind CSS
-- **IA aplicada:** embeddings locais/fine-tuned, retrieval híbrido, reranker cross-encoder, reindexação por domínio
+- **RAG techniques:** PDF ingestion, custom chunking, embeddings, hybrid retrieval, reranker, domain reindexing, answer validation, feedback loop
 
-## Estrutura do repositório
+## System Overview
 
-- `src/` — backend Python: ingestão, embeddings, vector store, retrieval, geração, avaliação
-- `app/` — interface Streamlit para o assistente RAG
-- `scripts/` — build do índice, reindexação por domínio e utilitários
-- `frontend/` — aplicação React do jogo idle
-- `docs/` — documentação técnica e materiais de estudo
-- `.env.example` — referência segura de configuração local e de deploy
+```mermaid
+flowchart TD
+    user[User] --> streamlit[StreamlitAssistant]
+    user --> vercel[ReactIdleRPG]
+    streamlit --> qa[QAChain]
+    qa --> retrieve[HybridRetrieval]
+    retrieve --> chroma[ChromaVectorStore]
+    retrieve --> bm25[BM25Layer]
+    qa --> llm[LLMProvider]
+    qa --> demo[DemoFallback]
+    ingest[PDFIngestion] --> chunking[Chunking]
+    chunking --> embeddings[Embeddings]
+    embeddings --> chroma
+    scripts[DomainReindexScripts] --> chroma
+```
 
-## Links de portfólio
+## Recruiter-Focused Architecture
 
-- **Frontend do jogo:** `adicione-aqui-o-link-do-vercel-ou-netlify`
-- **Assistente RAG (Streamlit):** `adicione-aqui-o-link-do-streamlit`
-- **Repositório GitHub:** `adicione-aqui-o-link-do-repo-publico`
+```mermaid
+flowchart LR
+    subgraph platform [ProductionSetup]
+        vercelLive[VercelFrontend]
+        streamlitLive[StreamlitRAG]
+    end
 
-## Rodando localmente
+    subgraph frontend [Frontend]
+        react[ReactPlusTypeScript]
+        zustand[ZustandState]
+        gameui[CombatBestiarySheet]
+    end
 
-### Backend RAG
+    subgraph backend [BackendAndRAG]
+        ingest[Ingestion]
+        embed[Embeddings]
+        search[HybridSearch]
+        rerank[Reranker]
+        eval[ValidationAndFeedback]
+    end
 
-1. Copie `.env.example` para `.env`.
-2. Ajuste `SOURCE_PDF_DIR` para a pasta dos PDFs ou use `data/raw`.
-3. Escolha o provedor de LLM:
-   - local: `LLM_PROVIDER="ollama"`
-   - deploy/nuvem: `LLM_PROVIDER="openai"`
-4. Instale as dependências:
+    react --> gameui
+    react --> zustand
+    ingest --> embed
+    embed --> search
+    search --> rerank
+    rerank --> eval
+    frontend --> vercelLive
+    backend --> streamlitLive
+```
+
+## What Is Live Right Now
+
+### Vercel
+
+The Vercel app is the **game frontend**:
+
+- bestiary
+- character sheet
+- items
+- combat UI
+
+### Streamlit
+
+The Streamlit app is the **assistant**:
+
+- tries the deployed RAG flow first
+- if indexed chunks are unavailable in cloud, it falls back to a **demo knowledge mode** using versioned project data
+- remains useful for portfolio and recruiter testing even without full Chroma/PDF rebuild in the cloud
+
+## What The Chat Accepts Right Now
+
+The chat currently works best for:
+
+- monster lookup
+- spell lookup
+- fire-related spell queries
+- advantages / disadvantages / race lookup
+- item lookup
+- simple greeting / smoke test prompts
+
+## Example Chat Prompts
+
+Use these exact examples in the live Streamlit app:
+
+```text
+Hi
+```
+
+```text
+What are the fire spells?
+```
+
+```text
+Abelha Feral Operária
+```
+
+```text
+Fera Mãe
+```
+
+```text
+What does Área de Batalha do?
+```
+
+```text
+What does Aceleração do?
+```
+
+```text
+What is Adaptador?
+```
+
+```text
+What is the Katana item?
+```
+
+```text
+What is Leather Armor used for?
+```
+
+```text
+How does race work in this project?
+```
+
+## RAG Scope Implemented In The Codebase
+
+- PDF ingestion pipeline
+- custom text cleaning and chunking
+- embedding pipeline with local and fine-tuned model support
+- Chroma vector storage
+- hybrid retrieval with semantic search plus BM25
+- reranking with cross-encoder
+- domain reindexing scripts for monsters, spells, items, advantages, rules, and character data
+- feedback and answer validation flow
+- production fallback strategy for cloud demo environments
+
+## Why This Is Relevant For AI / RAG Roles
+
+This repository demonstrates:
+
+- shipping a RAG product, not just notebooks
+- balancing local-first development with deploy constraints
+- handling retrieval quality, data shape, and ranking
+- making pragmatic production trade-offs
+- using AI tools to accelerate delivery while still owning architecture, correctness, and releases
+
+## Local Run
+
+### Backend / Streamlit
 
 ```bash
 pip install -r requirements.txt
-```
-
-5. Construa o índice:
-
-```bash
 python scripts/build_index.py
-```
-
-6. Suba o chat:
-
-```bash
-streamlit run app/main.py
-```
-
-7. Teste uma pergunta pelo terminal:
-
-```bash
-python scripts/test_query.py "Sua pergunta"
+streamlit run streamlit_app.py
 ```
 
 ### Frontend
@@ -70,58 +216,17 @@ npm run build
 npm run dev
 ```
 
-O chat público fica no app Streamlit. O frontend publicado no Vercel fica focado no jogo.
+## Repository Structure
 
-## Deploy recomendado
+- `src/` — backend, RAG, retrieval, evaluation, utilities
+- `app/` — Streamlit assistant UI
+- `frontend/` — React game frontend
+- `scripts/` — ingestion, reindexing, evaluation, training helpers
+- `docs/` — supporting technical notes and study material
 
-### Frontend
+## Notes
 
-Publicar o `frontend/` em **Vercel** ou **Netlify**:
-
-- Root directory: `frontend`
-- Build command: `npm run build`
-- Output directory: `dist`
-
-Como a aplicação usa `BrowserRouter`, este repositório já inclui configuração para fallback de rotas no deploy estático.
-
-### Backend RAG
-
-Publicar o chat em **Streamlit Community Cloud** ou **Railway**:
-
-- Entry point recomendado: `streamlit_app.py`
-- Dependências: `requirements.txt`
-- Variáveis de ambiente: baseadas em `.env.example`
-- Provedor recomendado em nuvem: `openai`
-
-Importante:
-
-- não publique PDFs brutos;
-- não suba `data/chroma/`, `models/` ou caches locais;
-- para deploy público, use um índice já preparado ou mova o armazenamento para um serviço externo.
-
-## O que não vai para o Git
-
-O `.gitignore` da raiz protege os principais artefatos locais:
-
-- `.env`
-- `data/raw/`
-- `data/chroma/`
-- `data/embedding_cache/`
-- `data/processed/`
-- `models/`
-- `frontend/node_modules/`
-- `frontend/dist/`
-
-## Documentação útil
-
-- `docs/CURSO_RAG_ML_PORTFOLIO.md`
-- `docs/CURSO_RAG_ML_PORTFOLIO_EXTENSO.md`
-- `docs/GIT_E_DEPLOY.md`
-- `docs/STREAMLIT_DEPLOY.md`
-
-## Observações práticas
-
-- Se o backend estiver configurado com Ollama e você receber erro de conexão, troque para OpenAI em deploy ou rode `ollama serve` localmente.
-- Se uma resposta estiver ruim, aumente `RETRIEVAL_K` e mantenha `RERANKING_ENABLED="true"`.
-- Se o objetivo for portfólio rápido, publique o frontend primeiro e depois suba a demo do RAG.
+- The Streamlit deployment is optimized for **portfolio availability**, not for full cloud-side index rebuilding
+- The frontend and assistant are intentionally split so each can be tested live with low friction
+- The codebase reflects an **AI-assisted build process**, but the engineering ownership, direction, validation, and deployment decisions were mine
 
