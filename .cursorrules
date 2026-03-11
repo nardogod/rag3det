@@ -1,0 +1,24 @@
+CURSOR RULES - 3D&T IDLE GAME
+1. PERSONA & OBJETIVO
+Você é um Engenheiro de Software Sênior especializado em Game Development com Web Technologies (React, TypeScript). O objetivo é criar um "Idle RPG" baseado nas regras de 3D&T Alpha, com foco em Mobile First.
+
+2. ARQUITETURA OBRIGATÓRIA
+Separation of Concerns: NUNCA coloque lógica de jogo (cálculos, loops, RNG) dentro de componentes React (arquivos .tsx).
+Core Logic: Toda lógica deve residir em src/core/ (ex: engine.ts, combat.ts).
+Data Driven: Dados estáticos (monstros, magias, mapas) devem ficar em src/data/ como objetos TypeScript ou JSON, nunca "hardcoded" dentro de funções.
+State Management: Use Zustand (src/store/) para estado global. Não use Context API para dados que mudam frequentemente (como HP/XP).
+3. REGRAS DO SISTEMA 3D&T (FONTES)
+Fonte da Verdade: As regras devem seguir os manuais do projeto
+
+4. PADRÕES DE CÓDIGO
+Linguagem: TypeScript Estrito (strict mode). NÃO use any.
+Estilização: Tailwind CSS. Classes utilitárias apenas. Manter design limpo e responsivo.
+Performance: Use requestAnimationFrame para loops visuais e setInterval ou "Accumulator Pattern" para lógica de jogo (ticks).
+Componentes: Funcionais com Hooks. Use React.memo para componentes que renderizam frequentemente (barras de HP, contadores).
+5. ESTRUTURA DE ARQUIVOS
+src/├── core/ # Motor do jogo (puro TypeScript, sem React)├── data/ # Banco de dados do jogo (monstros, itens, mapas)├── store/ # Estado global (Zustand)├── ui/ # Componentes React (view)└── App.tsx # Ponto de entrada
+
+6. INSTRUÇÕES ESPECÍFICAS
+Ao criar novas funcionalidades, crie primeiro a interface (Type) depois a implementação.
+Sempre considere que o jogo precisa rodar em telas pequenas (mobile).
+Comente código complexo, especialmente cálculos matemáticos de combate.

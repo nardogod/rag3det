@@ -1,0 +1,12 @@
+﻿# Reduz indexacao e uso de memoria do Cursor IDE
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+frontend/src/data/monstros.json
+frontend/src/data/habilidades_monstros.json
+frontend/src/data/itens_3dt.json
+frontend/src/data/magias_3dt.json
+data/processed/**/*.json
+__pycache__/
+*.pyc

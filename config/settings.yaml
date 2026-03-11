@@ -1,0 +1,19 @@
+chunking:
+  chunk_size: 1000
+  chunk_overlap: 200
+retrieval:
+  top_k: 6
+  candidate_k: 10
+  hybrid_semantic_weight: 0.7
+  hybrid_bm25_weight: 0.3
+  hybrid_enabled: true
+  query_expansion_enabled: true
+embedding:
+  embedding_model: models/embeddings/3dt_finetuned_v3
+  embedding_fallback: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  model_name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+llm:
+  provider: ollama
+  ollama_model: llama3.1
+  ollama_base_url: http://localhost:11434
+  openai_model_name: gpt-4.1-mini

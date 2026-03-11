@@ -1,0 +1,1251 @@
+[
+  {
+    "nome": "Aceleração",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Bônus em perseguição (H+1) e em combate (1 PM para ataque extra ou bônus em Iniciativa). Bônus em Esquiva pode tornar combates longos — o Mestre pode proibir ou eliminar bônus.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Adaptador",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Permite mudar o tipo de dano causado por seus ataques (corte, impacto, perfuração, etc.).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Aliado",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ou mais pontos",
+    "efeito": "Você tem um NPC companheiro que o acompanha. O custo varia conforme o poder do aliado. Um animal treinado conta como Aliado.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Aparência Inofensiva",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Permite ataque extra por surpresa. Efeitos em Perícias: +1 em Lábia e Sedução; –2 em Interrogatório e Intimidação.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Área de Batalha",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Vantagem de cenário. Apenas em campanhas cósmicas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Arma Especial",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Arma com poderes especiais. O Mestre pode preferir que seja conquistada em campanha em vez de comprada.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Armadura Extra",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Proteção adicional contra um tipo específico de dano (fogo, corte, etc.). Combinada com Vulnerabilidade, o Mestre pode proibir para eliminar tipos de dano e acelerar o jogo.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Pontos de Vida Extras",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Adiciona 5 PV ao total base (PV = R×5). Pode ser comprada múltiplas vezes.",
+    "livro": "Manual 3D&T Turbinado"
+  },
+  {
+    "nome": "Pontos de Magia Extras",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Adiciona 5 PM ao total base (PM = R×5). Pode ser comprada múltiplas vezes.",
+    "livro": "Manual 3D&T Turbinado"
+  },
+  {
+    "nome": "Deflexão",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Desvia ataques à distância. Personagem com Armadura 6 ou mais tem Deflexão automática. Pode tornar combates longos.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Forma Alternativa",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Permite assumir outra forma. Apenas em campanhas cósmicas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Genialidade",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Bônus em todas as Perícias (+2). O Mestre pode limitar a no máximo um personagem no grupo.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Magia",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Acesso a magia. O Mestre pode restringir Focus, Arcano, Clericato, Resistência à Magia, Fetiche, Restrição de Magia.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Máquina",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Personagem é uma máquina ou tem veículo como aliado. Não combina com fantasia medieval ou torneios.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Poder Oculto",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Poder secreto ou especial. Apenas em campanhas cósmicas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Possessão",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Permite possuir outros corpos. Apenas em campanhas cósmicas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Reflexão",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Reflete ataques de volta ao atacante. Pode tornar combates longos.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Separação",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Permite separar corpo e espírito. Apenas em campanhas cósmicas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Sentidos Especiais",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Sentidos aprimorados (visão noturna, faro, radar, etc.).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Teleporte",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "variável",
+    "efeito": "Permite teleportar. +2 em Iniciativa (não cumulativo com Aceleração). Bônus em Esquiva podem tornar combates longos — o Mestre pode proibir ou eliminar bônus.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Vulnerabilidade",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "negativo",
+    "efeito": "Sofre dano extra de um tipo específico. Combinada com Armadura Extra, o Mestre pode proibir para simplificar o jogo.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 23
+  },
+  {
+    "nome": "Anão",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Raça típica de fantasia medieval. Infravisão (Sentidos Especiais), Resistência à Magia, +1 em testes de Resistência (cumulativo com Paladino para anões paladinos). Inimigos tradicionais: orcs, goblinóides ou trolls — escolhe um e recebe H+1 ao lutar contra ele. Apenas em fantasia medieval (ou cenários que permitam).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Anfíbio",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "0 pontos",
+    "efeito": "Raças submarinas (tritões, sereias, nereidas, elfos-do-mar). Respira e se move na água com velocidade normal. Radar (Sentidos Especiais), apenas embaixo d'água. Ambiente Especial (água) e Vulnerabilidade (Calor/Fogo).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Centauro",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Criatura táurica (torso humano + corpo de animal). Modelo Especial. 2 ataques com patas por rodada (FA=F+1d) em vez de ataque normal. H+1 para corrida, fuga e perseguição. Bônus +1 em testes de Força com metade inferior do corpo (empurrar, carregar, etc.).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Construto",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "0 pontos",
+    "efeito": "Robô, andróide ou golem. Não dorme, come ou bebe. Imune a veneno, doenças e magias que afetam a mente. NUNCA recupera PV (apenas Perícia Máquinas: teste H+1 = 1 PV em meia hora). Pode usar PM; não pode ser mago ou clérigo. Não ressuscita. Não ganha XP em aventura em que morreu. Não combina com fantasia medieval ou torneios.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Elfo",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 ou 4 pontos",
+    "efeito": "H+1 (máx H5), FA+1 com espada longa ou arco; R-1 em testes de Resistência (não afeta PV/PM). Infravisão (iluminação mínima). Elfos-do-céu (4 pts): +Levitação. Apenas em fantasia medieval.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Fada",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "4 pontos",
+    "efeito": "Pequenas criaturas mágicas (pixies, sprites, dríades). H+1 (máx H5), Aparência Inofensiva, Arcano, Levitação, Modelo Especial, Vulnerabilidade (Magia e Armas Mágicas). Nunca Resistência à Magia. Fadas tamanho humano: sem Modelo Especial e sem H+1.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Goblin",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "-2 pontos",
+    "efeito": "Humanóide pequeno (~1m). Crime custa 1 pt; Má Fama; nunca mago; Clericato max Focus 2 (exceto Luz). Infravisão; +1 R contra doenças não mágicas. Apenas em fantasia medieval.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Halfling",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Pequeno humanóide (~90cm). H+1, PdF+1 (máx H5, PdF5); Resistência à Magia; Crime 1 pt; Modelo Especial. Apenas em fantasia medieval.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Meio-Dragão",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "10 pontos",
+    "efeito": "Filho de dragão e humano/semi-humano. Aparência normal. +1 em todas as Características (máx 5), Arcano, Invulnerabilidade (um tipo: calor/fogo, frio/gelo, luz, eletricidade, som/vento ou químico).",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Morto-Vivo",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "-2 pontos",
+    "efeito": "Morto, mas preso ao mundo físico. Imune a veneno, doenças e magias que afetam a mente. Não cura com medicina (causa dano); recupera PV só com descanso ou Cura para os Mortos; não ressuscita; Devoção ou Dependência obrigatória; enxerga no escuro; sem sono. Tipos: Esqueleto, Zumbi, Múmia, Fantasma, Vampiro, Lich.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 41
+  },
+  {
+    "nome": "Meio-Elfo",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "1 ponto",
+    "efeito": "Humano + elfo. Infravisão (iluminação mínima), vive 2x mais que humanos. Pode ser Paladino. Aparência mais humana, orelhas pontiagudas menos pronunciadas.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 46
+  },
+  {
+    "nome": "Meio-Orc",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "-1 ponto",
+    "efeito": "Orc + humanóide. F+1 (máx F5), Infravisão, Má Fama. Nunca Genialidade ou Memória Expandida. Filhos de humanos podem ser Paladinos.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 46
+  },
+  {
+    "nome": "Gnomo",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Pequeno humanóide (~1m). H+1 (máx H5), Genialidade, Infravisão. Focus+1 em Luz; magias ilusórias e Invisibilidade gastam -1 PM. Modelo Especial. Não nativo em Arton.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 44
+  },
+  {
+    "nome": "Paladino",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Guerreiro sagrado. 2 pts de Focus apenas em Água, Ar e Luz; não pode Focus em outros Caminhos. +1 em testes de Resistência. Códigos de Honra (Heróis, Honestidade). Apenas humanos, Anões, Meio-Elfos e Meio-Orcs.",
+    "livro": "Manual 3D&T Turbinado",
+    "pagina": 48
+  },
+  {
+    "nome": "Brownie",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Híbrido halfling/fada. Magias naturais: Proteção Mágica, Luz, Ilusão Avançada, Imagem Turva (1x/dia cada). Modelo Especial. Nunca Resistência à Magia. Incapaz de lutar.",
+    "livro": "Manual da Magia",
+    "pagina": 98
+  },
+  {
+    "nome": "Meio-Gênio",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "4 pontos",
+    "efeito": "Herança de gênio. Marca de Wynna. Pequenos Desejos (magias Focus 1 quando outro pede). Levitação a 1 pt. Armadura Extra por ancestralidade. Feiticeiro a 0 pts.",
+    "livro": "Manual da Magia",
+    "pagina": 99
+  },
+  {
+    "nome": "Sátiro",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "2 pontos",
+    "efeito": "Raça faunesca. Características de fada com traços de fauno.",
+    "livro": "Manual da Magia",
+    "pagina": 100
+  },
+  {
+    "nome": "Dragonete",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "4 pontos",
+    "efeito": "Subtipo de Fada. H+1, Aparência Inofensiva, Arcano, Levitação, Modelo Especial. PdF como sopro (fogo, água, luz ou ar). Nunca Resistência à Magia.",
+    "livro": "Manual da Magia",
+    "pagina": 100
+  },
+  {
+    "nome": "Grig",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "4 pontos",
+    "efeito": "Subtipo de Fada. Cabeça e torso humanóides, asas, antenas, patas de grilo. Regras de Fada. Nunca Resistência à Magia ou Monstruoso.",
+    "livro": "Manual da Magia",
+    "pagina": 100
+  },
+  {
+    "nome": "Pixie",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "4 pontos",
+    "efeito": "Subtipo de Fada. Pequenos elfos com asas translúcidas. Regras de Fada. Nunca Resistência à Magia.",
+    "livro": "Manual da Magia",
+    "pagina": 100
+  },
+  {
+    "nome": "Licantropo",
+    "tipo": "unica",
+    "unica": true,
+    "custo": "0 pontos",
+    "efeito": "Forma de fera: F+1, A+1, Monstruoso. Vulnerabilidade: Magia e Prata. Transformação involuntária (Fúria, Lua Cheia, Perto da Morte ou Protegido Indefeso).",
+    "livro": "Manual dos Monstros / Bestiário",
+    "pagina": 105
+  },
+  {
+    "nome": "Familiar",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "2 pontos",
+    "efeito": "Pequeno animal mágico que partilha suas habilidades. Oferece PMs Extras x1. Une-se ao dono como Parceiro, combinando Características e Vantagens. Ligação Natural. Apenas usuários de magia. Máximo 1 familiar.",
+    "livro": "Manual da Magia",
+    "pagina": 95
+  },
+  {
+    "nome": "Magia Irresistível",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 a 3 pontos",
+    "efeito": "Vítima sofre redutor em teste de Resistência: 1 pt = -1, 2 pts = -2, 3 pts = -3.",
+    "livro": "Manual da Magia",
+    "pagina": 96
+  },
+  {
+    "nome": "Flecha Carregada",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Pode lançar magia instantânea na flecha; ao atingir alvo, magia afeta o alvo. Gasta 1 PM extra. Requer 1 rodada para conjurar e 1 para disparar.",
+    "livro": "Manual da Magia",
+    "pagina": 96
+  },
+  {
+    "nome": "Flecha Teleguiada",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Imprime redutor de H-2 contra alvo para FD e Esquiva. Consome 1 PM por uso.",
+    "livro": "Manual da Magia",
+    "pagina": 96
+  },
+  {
+    "nome": "Guia Enrolado",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Sempre sabe o caminho para qualquer lugar, mas será SEMPRE o mais longo e perigoso possível.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Efeito Reflexo",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Ao ouvir/ver sinal específico (ex.: sineta), é compelido a fazer algo (dançar, recitar, dormir). Como Insano: Compulsivo, mas acionado pelo sinal.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Podia ser Pior",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Otimista; ao dizer algo positivo, o universo conspira e acontece o contrário (ex.: 'podia estar chovendo' → chuva torrencial).",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Sem Sombra",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Perdeu a sombra. Redutor de -1 em Perícias com pessoas. Pessoas desconfiam (vampiro, demônio).",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Sem Reflexo",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Imagem não aparece em espelhos ou superfícies reflexivas. Não pode ser filmado, fotografado ou pintado. Pessoas podem achar que é vampiro ou fantasma.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Onomatopaico",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Não consegue falar sem imitar efeitos sonoros (KRAASH, SHAFHUM...), dificultando compreensão.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Careca",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Perdeu todo o cabelo e nunca poderá recuperá-lo.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Vórtice de Energia",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "1 ponto",
+    "efeito": "Criaturas a até 3m perdem 1 PM por rodada. Você não é afetado nem recebe os PMs drenados.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Chorão",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Em situação emocional significativa, chora/soluça enquanto fala normalmente.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Sem Voz Ativa",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Não consegue falar com convicção. Pessoas acham desprezível, covarde ou mentiroso; não dão valor ao que diz.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Super Deformed",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Quando algo engraçado ou constrangedor acontece, transforma-se em versão miniatura e fofa — nunca mais será levado a sério.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Audição Ruim",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Redutor de H-1 para notar inimigos escondidos. Cancelado por Audição Aguçada.",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Sem Faro",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Não sente cheiro nem gosto. Imune a gases pestilentos; não sente cheiro de fogo. Faro Aguçado é cancelado.",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Visão Ruim",
+    "tipo": "vantagem",
+    "unica": false,
+    "custo": "0 pontos",
+    "efeito": "Caolho, míope ou visão ruim. Redutor H-1 em ataques à distância, Esquivas e notar inimigos escondidos. Cancelado por Visão Aguçada.",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Interferência Mágica",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Emana aura anti-mágica. Magias a até 10m: 1-2 no dado = falha (PMs gastos). Conjuradores sentem mal-estar. 1 PM extra para ignorar.",
+    "livro": "Manual da Magia",
+    "pagina": 96
+  },
+  {
+    "nome": "Alergia ao Sexo Oposto",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Após 2 turnos falando com sexo oposto, teste de R-1 por turno. Falha = ânsias e vômito.",
+    "livro": "Manual da Magia",
+    "pagina": 102
+  },
+  {
+    "nome": "Ímã do Sexo Oposto",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Irresistível ao sexo oposto (ou mesmo sexo). Pretendentes variadas lutam por você — podem explodir você por acidente.",
+    "livro": "Manual da Magia",
+    "pagina": 102
+  },
+  {
+    "nome": "Ódio do Sexo Oposto",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Repulsivo para sexo oposto. Como Monstruoso + Má Fama, só para sexo oposto: nojo, medo, asco, violência.",
+    "livro": "Manual da Magia",
+    "pagina": 102
+  },
+  {
+    "nome": "Descontrole Amoroso",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Apaixona-se por qualquer criatura atraente do sexo oposto. Ignora valores para conquistar. Como Devoção, mas cessa quando a pessoa se afasta.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Nenhum Senso de Direção",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Nunca chega aonde deseja, exceto por acaso (1 em 1d). Só se orienta em grupo.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Troca de Sexo",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Água fria: muda de sexo. Água quente: volta ao normal.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Toque da Morte",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Toque da pele causa 1 PV/turno (exceto Construtos e Mortos-Vivos). Tocar contra vontade exige ataque. Ataque comum não conta.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Estupidez",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Como Inculto, mas em TODAS as Perícias. Efeitos cumulativos.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Sempre Atrasado",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Nunca chega na hora. Penalidade -1 em Iniciativa.",
+    "livro": "Manual da Magia",
+    "pagina": 103
+  },
+  {
+    "nome": "Licantropia",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Diferente da Vantagem Única Licantropo. Lua cheia: transforma em fera (+2 Características), controlada pelo Mestre. Sem controle do jogador.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Flatulência",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Flatulência desenfreada. Redutor -2 em Perícias com pessoas. Será evitado a todo custo.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Degradação das Matas",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Presença nociva a plantas. Vida vegetal a até 2m apodrece. Criaturas-planta perdem 1 PV/turno perto de você.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Toque da Putrefação",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Objetos tocados com as mãos viram massa putrefata em momentos. Arma em mãos desmancha em 1d rodadas.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Toque dos Gremlins",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Objetos mecânicos (2+ partes móveis) desmontam ao contato. Construto: R ou 0 PVs.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Toque da Banalidade",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Como Toque da Morte, mas drena 1 PM/turno (inclui Construtos e Mortos-Vivos).",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Olhar da Medusa",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Olhar nos olhos: R-1 ou vira pedra. Teste 1x/hora para quem convive. Sem controle. Óculos escuros não resolvem.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Amor dos Animais",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Animais amam você mas NÃO obedecem. Seguem você, não deixam em paz. Ocasionalmente dragão/ogre decide criá-lo como filhote.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Ódio das Máquinas",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Aparelhos eletrônicos não funcionam direito. Penalidade -2 em Perícias com máquinas. Construtos não gostam de você.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Coração Confuso",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Reage ao contrário: Pânico dá coragem, Marcha da Coragem faz fugir. Espanca quem ama, apaixona-se por quem quer matá-lo.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Atrapalhado",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Faz tudo de forma atrapalhada e vexaminosa. Sempre tropeçando, esbarrando, quebrando, dizendo bobagens.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Sem Noção",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não compreende como os demais. Conclusões estranhas. Ex.: ir a Tóquio abrindo a porta e correndo.",
+    "livro": "Manual da Magia",
+    "pagina": 104
+  },
+  {
+    "nome": "Azar",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Sorte sempre contra você. Acidentes, falhas, contratempos constantes.",
+    "livro": "Manual da Magia",
+    "pagina": 92
+  },
+  {
+    "nome": "Uruca",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Como Azar, mas afeta TODOS a até 10m. Tropeços, quebras, acidentes por onde passa.",
+    "livro": "Manual da Magia",
+    "pagina": 105
+  },
+  {
+    "nome": "Velhice Acelerada",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Envelhece 10x mais rápido (humano: ~1 ano por mês). Reduz drasticamente tempo de vida.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Marca do Mentiroso",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Ao mentir, efeito óbvio denuncia: trovão, pássaro morto cai, gagueja, nariz cresce...",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Permissão de Entrada",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não pode entrar voluntariamente em lugar sem permissão do dono.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Prisão",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Preso a território ou estrutura. Fora da área: perde 1d PVs/dia. Só cura retornando.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Prisão Total",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Não pode abandonar área. Parede invisível. Nem Teleporte funciona.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Maldição de Tanna-Toh",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Só consegue dizer a verdade. Não pode mentir em nenhuma hipótese.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Maldição de Sszzaas",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Nunca diz a verdade; acredita nas próprias mentiras. Incompatível com Código de Honestidade.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Maldição de Nimb",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Sorte vira azar e vice-versa. Em testes de Características/Perícias: acerto = erro, erro = acerto.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Sedativo",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Ao falar/cantar 4 turnos, todos à volta: R+2 por turno ou dormem. Não em combate/tensão.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Fedido",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Fede. Redutor -3 em Perícias com pessoas. R constante para ficar perto (até 3m). Faro Aguçado: R ou desmaia.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Repulsa",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não tolera toque de certo tipo de pessoa ou em certa parte do corpo. Quando acontece: entra em Fúria e ataca.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Egípcia ou Não",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Violou lugar sagrado; entidade inferniza sua vida. 1x/dia: magia/efeito/acidente exige Esquiva ou R para evitar morte.",
+    "livro": "Manual da Magia",
+    "pagina": 106
+  },
+  {
+    "nome": "Mudança de Personalidade",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Ao fazer algo específico (ex.: olhar no espelho) ou fenômeno (ex.: chover), muda totalmente de personalidade.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Crescimento de Pêlos",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Cabelo e barba crescem 1m a cada 12 horas. Precisa aparar.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Descontrole Intestinal",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Em certa condição (nervoso, vê peixe, chove...): diarréia violenta. R por turno até banheiro.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Ligação Espiritual",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Ligado a outra pessoa. Tudo de ruim com ela acontece com você. Pode morrer sem saber o motivo.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Soluço Descontrolado",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Soluça o tempo todo. Mago: teste de Habilidade antes de conjurar. Redutor -1 em Perícias com pessoas.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Glutonia",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Sempre com fome. +1h sem comer: -1 em todas as Características. Não para de comer voluntariamente até acabar tudo.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Reflexo Distorcido",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Em espelhos: aparência monstruosa/diabólica. Pessoas podem achar que é vampiro ou demônio.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Muito Mais Monstruoso",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Versão intensa de Monstruoso. Ninguém olha sem fugir/desmaiar/ficar estátua. Fugir = Teleporte gratuito.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Vocabulário Limitado",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Só consegue usar uma ou no máximo duas palavras por frase.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Emoção Climática",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Estado de espírito muda com o clima: sol = entusiasmado, nublado = deprimido, tempestade = furioso.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Incapacidade de Ler",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não consegue ler nem escrever. Grave para magos (grimórios).",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Memória Recente",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não lembra de nada há mais de 5 minutos. Sabe nome, idade, origem; esquece pessoas, conversas, ferimentos.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Sem Memória",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Não lembra nada antes da Maldição: nome, pais, origem, poderes.",
+    "livro": "Manual da Magia",
+    "pagina": 107
+  },
+  {
+    "nome": "Combustível",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Pode pegar fogo perto de chama. Mínimo 1d dano/rodada. 1 rodada para apagar.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Comburente",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Fogo a até 3m (ou em você) aumenta dano em 1d.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Emanação de Discórdia",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Até 6m: pessoas ficam desconfiadas e irritadas (Paranóia, Fúria). Testes para resistir. Discussões e brigas.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Forma Inofensiva",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Dia: transforma em bebê, velhinho ou animal indefeso (Características 0). Noite: volta ao normal.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Recuperação Parcial",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "2x tempo para recuperar PVs/PMs. Magias e itens restauram metade.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Recuperação Limitada",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Não recupera PVs/PMs com descanso; só magias ou itens.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Recuperação Impossível",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-3 pontos",
+    "efeito": "Impossível recuperar PVs ou PMs de qualquer forma. Única Maldição de -3 pts.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Antimagia",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Nenhuma magia funciona com ou para você. Itens mágicos viram comuns ao toque.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Magia Limitada",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Gasta 2x PMs para magias, poderes ou Vantagens.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Fragilidade",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Sempre sofre +2 dano extra em ferimentos.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Chagas de Pedra",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Pele cinzenta com crostas. Armadura+1, Habilidade-1, Monstruoso.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Karma Evidente",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Corpo emana energia intensa. Impossível passar despercebido. Sentidos Especiais nem precisam testar.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Pesadelos",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Noites de pesadelos. Nunca recupera PMs como descanso confortável.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Ímã de Raios",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Sol: 1 em 6h, 1 em 1d = raio (2d dano). Tempestade: 1-2 em 1d a cada hora.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Extintor",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Chamas não-mágicas a até 3m apagam. Não fica em chamas (apaga na rodada seguinte).",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Sombra Viva",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Sombra com vontade própria. Move-se independente, zomba, importuna. Pode apanhar/arremessar objetos (F0).",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Reflexo Insuportável",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Ver reflexo: incapaz de agir, encolhe, esperneia, geme 1d rodadas.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Pestilência",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Criaturas vivas a até 1m: R ou doença terrível. PVs/PMs → 0, morte em 1d dias sem tratamento.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Dedos de Manteiga",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Redutor -2 em Perícias com instrumentos. Ataque: Habilidade ou deixa cair arma.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Loucura de Batalha",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Ao ser atacado ou entrar em combate: fúria berserker. Luta descontrolado até cair. Gasta todos os PMs em Ataques Especiais.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "A Retribuição de Zoamelgustar",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Mal que causa volta para você. Rouba → item some. Magia nociva → sofre efeito. Dano → mesmo dano. Matar → morre.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Chagas da Natureza",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Dano à natureza em 100m → 1d dano a você. Terreno urbano: 1 PV/rodada.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Companheiro Indesejado",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Criaturinha chata ou presença sobrenatural (demôniozinho, fadinha) que não pode ser destruída. Como Assombrado.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Dança Irresistível",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Ouvir música: dança sem controle até acabar. Fazer outra coisa: teste de Habilidade.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Magia Reversa",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Magias têm efeito contrário. Cura causa dano; Ataque Mágico cura. Alguns magos tiram proveito.",
+    "livro": "Manual da Magia",
+    "pagina": 109
+  },
+  {
+    "nome": "Cego",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-2 pontos",
+    "efeito": "Deficiência visual total. Pode ser curada com Cura de Maldição.",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Mudo",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Dificuldade para comunicar. Perícias sociais = Tarefas Difíceis. Conjurador mudo não lança magias (exceto Mágica Silenciosa de Talude).",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Surdo",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Redutor H-1 para notar inimigos escondidos. Audição Aguçada e Radar cancelados.",
+    "livro": "Manual da Magia",
+    "pagina": 110
+  },
+  {
+    "nome": "Dedo Verde",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Plantas e flores crescem rapidamente e sem controle perto de você. Basta ficar no lugar para surgir um bosque.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  },
+  {
+    "nome": "Intuição Poderosa",
+    "tipo": "desvantagem",
+    "unica": false,
+    "custo": "-1 ponto",
+    "efeito": "Como Oráculo, mas visões indesejadas. PVs e PMs reduzem a zero ao receber visão; fica reduzido até descansar.",
+    "livro": "Manual da Magia",
+    "pagina": 108
+  }
+]

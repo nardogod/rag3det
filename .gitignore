@@ -1,0 +1,48 @@
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# Vector store, models, caches, and local databases
+data/raw/
+data/chroma/
+data/embedding_cache/
+data/processed/
+data/referencia_monstros/
+data/campaigns/
+data/demo_processed/
+data/training/
+data/*.flag
+models/
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage and logs
+.coverage
+coverage.xml
+htmlcov/
+*.log
+logs/
+checkpoints/
+.history/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

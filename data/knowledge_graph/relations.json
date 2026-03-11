@@ -1,0 +1,2464 @@
+{
+  "relations": [
+    {
+      "source": "Alcance",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "adino. Custo: 1 PM. Alcance: toque; Duração: ins"
+    },
+    {
+      "source": "Esta magia",
+      "relation": "is_a",
+      "target": "capaz de acalmar a",
+      "evidence": "uração: sustentável. Esta magia é capaz de acalmar a"
+    },
+    {
+      "source": "Custo",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "ricato ou Paladino. Custo: 1 PM. Alcance: toque; Duração: ins"
+    },
+    {
+      "source": "Esta magia",
+      "relation": "is_a",
+      "target": "cap",
+      "evidence": "uração: sustentável. Esta magia é cap"
+    },
+    {
+      "source": "Custo",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "al (água ou terra). Custo: 2 PMs (ou mais, veja o texto). Alc"
+    },
+    {
+      "source": "Os babau",
+      "relation": "is_a",
+      "target": "sorrateiros e dis",
+      "evidence": "o agressor. Combate: Os babau são sorrateiros e dis"
+    },
+    {
+      "source": "Esta magia",
+      "relation": "is_a",
+      "target": "utilizada por certos magos para en",
+      "evidence": "uração: sustentável. Esta magia é utilizada por certos magos para en"
+    },
+    {
+      "source": "veja abaixo",
+      "relation": "cost_pm",
+      "target": "3",
+      "evidence": "egra. Custo: 3 PMs (veja abaixo)."
+    },
+    {
+      "source": "Esta",
+      "relation": "is_a",
+      "target": "a magia br",
+      "evidence": "uração: instantânea. Esta é uma magia br"
+    },
+    {
+      "source": "Exigências",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "ncias: Clericato ou Paladino. Custo: 1 PM. Alcance: toque; Duração:"
+    },
+    {
+      "source": "Infelizmente o machado",
+      "relation": "is_a",
+      "target": "enorme e de aparência desagra",
+      "evidence": "custo normal em PMs. Infelizmente o machado é enorme e de aparência desagra"
+    },
+    {
+      "source": "que que",
+      "relation": "effect",
+      "target": "dano",
+      "evidence": "que que causa dano, você pode gastar 2 PMs para ganhar um a"
+    },
+    {
+      "source": "Essa",
+      "relation": "is_a",
+      "target": "a ma",
+      "evidence": "uração: instantânea. Essa é uma ma"
+    },
+    {
+      "source": "para cada",
+      "relation": "cost_pm",
+      "target": "5",
+      "evidence": "icato. Custo: 5 PMs para cada 1d PVs. Alcance: l"
+    },
+    {
+      "source": "eles",
+      "relation": "is_a",
+      "target": "os únicos mortos-vivos que nunca podem recuperar",
+      "evidence": "da). Por outro lado, eles são os únicos mortos-vivos que nunca podem recuperar "
+    },
+    {
+      "source": "um personagem sob efeito de Transporte Etéreo",
+      "relation": "is_a",
+      "target": "totalmente",
+      "evidence": "lo). Por outro lado, um personagem sob efeito de Transporte Etéreo é totalmente"
+    },
+    {
+      "source": "onde",
+      "relation": "is_a",
+      "target": "impossível",
+      "evidence": "interior vida ameba, onde é impossível "
+    },
+    {
+      "source": "o poderoso veneno digestivo da aranha",
+      "relation": "effect",
+      "target": "um dano extra",
+      "evidence": "istência: se falhar, o poderoso veneno digestivo da aranha causa um dano extra "
+    },
+    {
+      "source": "os formian",
+      "relation": "is_a",
+      "target": "considerados de mo",
+      "evidence": "m como os centauros, os formian são considerados de mo"
+    },
+    {
+      "source": "a ladinagem",
+      "relation": "is_a",
+      "target": "o recurso mais acessível para estas criatura",
+      "evidence": "ladrões. Na verdade, a ladinagem é o recurso mais acessível para estas criatura"
+    },
+    {
+      "source": "eles",
+      "relation": "is_a",
+      "target": "plantas inteligentes e carnívoras",
+      "evidence": "drecida. na verdade, eles são plantas inteligentes e carnívoras. Seu cérebro e "
+    },
+    {
+      "source": "para eles",
+      "relation": "is_a",
+      "target": "simples insetos",
+      "evidence": "hantes — na verdade, para eles são simples insetos. isso, contudo, não quer diz"
+    },
+    {
+      "source": "o acerto crítico",
+      "relation": "is_a",
+      "target": "anulado",
+      "evidence": "Se for bem-sucedido, o acerto crítico é anulado, e você sofre apenas d"
+    },
+    {
+      "source": "e ela",
+      "relation": "is_a",
+      "target": "cancelada",
+      "evidence": "egue manter a magia, e ela é cancelada. Falar "
+    },
+    {
+      "source": "os kaatar-niray",
+      "relation": "is_a",
+      "target": "criaturas mortais e implacáveis",
+      "evidence": "1d+46 Em combate, os kaatar-niray são criaturas mortais e implacáveis, alian"
+    },
+    {
+      "source": "O acadêmico",
+      "relation": "is_a",
+      "target": "mago que está longe de",
+      "evidence": ". Função: dominante. O acadêmico é um mago que está longe de"
+    },
+    {
+      "source": "Quase todas as magias",
+      "relation": "is_a",
+      "target": "curativas ou de",
+      "evidence": "ca: magias sagradas. Quase todas as magias são curativas ou de"
+    },
+    {
+      "source": "Táticas O caranguejo de guerra",
+      "relation": "is_a",
+      "target": "utilizado em ata",
+      "evidence": "o Especial (grande). Táticas O caranguejo de guerra é utilizado em ata"
+    },
+    {
+      "source": "Táticas As teias das aranhas brutais",
+      "relation": "is_a",
+      "target": "difíceis",
+      "evidence": "o Especial (grande). Táticas As teias das aranhas brutais são difíceis"
+    },
+    {
+      "source": "Esta magia",
+      "relation": "is_a",
+      "target": "utilizada por certos ma",
+      "evidence": "uração: sustentável. Esta magia é utilizada por certos ma"
+    },
+    {
+      "source": "o poder",
+      "relation": "effect",
+      "target": "dano a criaturas vivas e cura mortos-vivos",
+      "evidence": "va (veja a seguir) — o poder causa dano a criaturas vivas e cura mortos-vivos"
+    },
+    {
+      "source": "padrão Esta",
+      "relation": "is_a",
+      "target": "a forma mais simples e óbvia de provocar dan",
+      "evidence": "instantânea Alcance: padrão Esta é a forma mais simples e óbvia de provocar dan"
+    },
+    {
+      "source": "PMs quando",
+      "relation": "is_a",
+      "target": "quebrado",
+      "evidence": " cajado ainda tem 21 PMs quando é quebrado, el"
+    },
+    {
+      "source": "a maior fraqueza de uma múmia",
+      "relation": "is_a",
+      "target": "que todas estão",
+      "evidence": "s mágicas. Maldição: a maior fraqueza de uma múmia é que todas estão "
+    },
+    {
+      "source": "uma banshee",
+      "relation": "is_a",
+      "target": "invulnerável a todos os ataques",
+      "evidence": ". Invulnerabilidade: uma banshee é invulnerável a todos os ataques, exceto magia "
+    },
+    {
+      "source": "Escola",
+      "relation": "school",
+      "target": "Branca",
+      "evidence": "AGIAS Abençoar Água Escola: Branca, Elemental (água). Exigências: Clericato"
+    },
+    {
+      "source": "Escola",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "água). Exigências: Clericato. Custo: 1 PM."
+    },
+    {
+      "source": "Escola",
+      "relation": "school",
+      "target": "Negra",
+      "evidence": "ão. Amaldiçoar Água Escola: Negra, Elemental (água). Exigências: Clericato"
+    },
+    {
+      "source": "Dragões marinhos",
+      "relation": "is_a",
+      "target": "capazes de respirar na águ",
+      "evidence": "Naturais • Aquático. Dragões marinhos são capazes de respirar na águ"
+    },
+    {
+      "source": "ou mais",
+      "relation": "is_a",
+      "target": "imunes",
+      "evidence": "to. Criaturas com R5 ou mais são imunes. para uma vítima trans"
+    },
+    {
+      "source": "TODOS os dragões de todas as espécies",
+      "relation": "is_a",
+      "target": "inimigos dos dragotauros",
+      "evidence": " Difíceis. Inimigo: TODOS os dragões de todas as espécies são inimigos dos dragotauros"
+    },
+    {
+      "source": "cada PM da magia lançada contra o usuário",
+      "relation": "is_a",
+      "target": "convertido em",
+      "evidence": "tacando. Neste caso, cada PM da magia lançada contra o usuário é convertido em "
+    },
+    {
+      "source": "Grande tamanho não",
+      "relation": "is_a",
+      "target": "exclusividade dos Mon",
+      "evidence": "de: Luz. Elefantes “Grande tamanho não é exclusividade dos Mon"
+    },
+    {
+      "source": "Ataque Mágico",
+      "relation": "element",
+      "target": "secundário que surge da un",
+      "evidence": " gelo – “Gelo” é um elemento secundário que surge da un"
+    },
+    {
+      "source": "Os derro",
+      "relation": "is_a",
+      "target": "sorrateiros e sanguinolentos",
+      "evidence": "9m do alvo. Combate: Os derro são sorrateiros e sanguinolentos. Eles g"
+    },
+    {
+      "source": "o alvo",
+      "relation": "is_a",
+      "target": "recoberto por uma grossa camada de",
+      "evidence": "alvo. [3] Ao (água): o alvo é recoberto por uma grossa camada de"
+    },
+    {
+      "source": "do alvo",
+      "relation": "school",
+      "target": "Branca",
+      "evidence": "por Fabrícius Viana Escola: Branca, Elementa"
+    },
+    {
+      "source": "o Uktril",
+      "relation": "is_a",
+      "target": "invulnerável a ácido",
+      "evidence": ". Invulnerabilidade: o Uktril é invulnerável a ácido, veneno"
+    },
+    {
+      "source": "Dragões",
+      "relation": "is_a",
+      "target": "extremame",
+      "evidence": "ordida (FA=F+H +1d). Dragões são extremame"
+    },
+    {
+      "source": "Muitas crenças",
+      "relation": "is_a",
+      "target": "baseadas",
+      "evidence": "xo). Função: tanque. Muitas crenças são baseadas "
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "fácil manter Tormenta fiel a suas origens",
+      "evidence": "rições. Mesmo assim, não é fácil manter Tormenta fiel a suas origens, sua tradi"
+    },
+    {
+      "source": "para lançar essa magia",
+      "relation": "school",
+      "target": "Elem",
+      "evidence": "lher três magias da escola Elem"
+    },
+    {
+      "source": "nunca",
+      "relation": "is_a",
+      "target": "vistos à luz do dia",
+      "evidence": " nunca são vistos à luz do dia. reúnem-se em grupos de 3d indivíduos. a"
+    },
+    {
+      "source": "Estes aspectos",
+      "relation": "is_a",
+      "target": "igualmente verdadeiros quando aplicados",
+      "evidence": "o mundo à sua volta. Estes aspectos são igualmente verdadeiros quando aplicados"
+    },
+    {
+      "source": "ARTEFATOS Itens mágicos",
+      "relation": "is_a",
+      "target": "itens poderosos",
+      "evidence": "ntos de Experiência. ARTEFATOS Itens mágicos são itens poderosos, mas que podem"
+    },
+    {
+      "source": "Dragões",
+      "relation": "is_a",
+      "target": "extremamente inteligentes e sabem",
+      "evidence": "ordida (FA=F+H +1d). Dragões são extremamente inteligentes e sabem"
+    },
+    {
+      "source": "Escolhidos sempre",
+      "relation": "is_a",
+      "target": "mais fortes",
+      "evidence": "+1 e Resistência +2. Escolhidos sempre são mais fortes, resistentes e gracio"
+    },
+    {
+      "source": "Nem mesmo um Raio Desintegrador",
+      "relation": "is_a",
+      "target": "capaz de evitar sua r",
+      "evidence": "ada (ao invés de 1). Nem mesmo um Raio Desintegrador é capaz de evitar sua r"
+    },
+    {
+      "source": "quando",
+      "relation": "is_a",
+      "target": "utilizada em um ataque furtivo",
+      "evidence": "combate. Além disso, quando é utilizada em um ataque furtivo, ataqu"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "imune à magia Pânico",
+      "evidence": "o combate. Destemor: você é imune à magia Pânico. Além disso, caso se"
+    },
+    {
+      "source": "apenas ao toque",
+      "relation": "is_a",
+      "target": "a felicidade que apenas uns poucos mag",
+      "evidence": "r cancelada Alcance: apenas ao toque É uma felicidade que apenas uns poucos mag"
+    },
+    {
+      "source": "Treinador de Heróis Seu corpo",
+      "relation": "is_a",
+      "target": "semelhante ao de um pássar",
+      "evidence": "acas. — Toni Guerra, Treinador de Heróis Seu corpo é semelhante ao de um pássar"
+    },
+    {
+      "source": "Treinador de Heróis Os celestiais",
+      "relation": "is_a",
+      "target": "completamente imbuíd",
+      "evidence": " boa. — Toni Guerra, Treinador de Heróis Os celestiais são completamente imbuíd"
+    },
+    {
+      "source": "Treinador de Heróis A única grande diferença",
+      "relation": "is_a",
+      "target": "seu temido",
+      "evidence": "ão... — Toni Guerra, Treinador de Heróis A única grande diferença é seu temido "
+    },
+    {
+      "source": "As asas também",
+      "relation": "is_a",
+      "target": "diferentes",
+      "evidence": ", incluindo a cauda. As asas também são diferentes; em vez das asas coriáceas d"
+    },
+    {
+      "source": "O dragão marinho adulto maduro ou mais velho",
+      "relation": "is_a",
+      "target": "capaz de us",
+      "evidence": "• O Canto da Sereia. O dragão marinho adulto maduro ou mais velho é capaz de us"
+    },
+    {
+      "source": "Dragões verdes adultos",
+      "relation": "is_a",
+      "target": "capazes de utilizar a magia O C",
+      "evidence": "• O Canto da Sereia. Dragões verdes adultos são capazes de utilizar a magia O C"
+    },
+    {
+      "source": "transporte aéreo",
+      "relation": "is_a",
+      "target": "luxo para poucos",
+      "evidence": " atacante. Em Arton, transporte aéreo é um luxo para poucos. Montarias voadoras"
+    },
+    {
+      "source": "o maior exemplo de loucura e ousadia que se conhece",
+      "relation": "is_a",
+      "target": "os",
+      "evidence": "o: tanque. Em Arton, o maior exemplo de loucura e ousadia que se conhece são os"
+    },
+    {
+      "source": "a profissão de aventureiro",
+      "relation": "is_a",
+      "target": "comum",
+      "evidence": "o: tanque. Em Arton, a profissão de aventureiro é comum. De cada dez pessoas, u"
+    },
+    {
+      "source": "Em alguns lugares eles",
+      "relation": "is_a",
+      "target": "chamados de dragões cromáticos",
+      "evidence": "ritos, terra e fogo. Em alguns lugares eles são chamados de dragões cromáticos,"
+    },
+    {
+      "source": "com metade do custo em",
+      "relation": "element",
+      "target": "secu",
+      "evidence": "idade ele utiliza o elemento secu"
+    },
+    {
+      "source": "Os dragões adultos maduros",
+      "relation": "is_a",
+      "target": "capa",
+      "evidence": ". • Ampliar Plantas. Os dragões adultos maduros são capa"
+    },
+    {
+      "source": "Apis",
+      "relation": "is_a",
+      "target": "a divindade menor das abelhas",
+      "evidence": "custam 1 PM). Nicho: Apis é a divindade menor das abelhas, sendo automaticamente "
+    },
+    {
+      "source": "Hippion",
+      "relation": "is_a",
+      "target": "a divindade menor dos cavalos",
+      "evidence": "mais uma vez. Nicho: Hippion é a divindade menor dos cavalos, sendo automaticamen"
+    },
+    {
+      "source": "a Fera-Mãe",
+      "relation": "is_a",
+      "target": "a divindade menor das feras-cactus",
+      "evidence": "teste de H+1. Nicho: a Fera-Mãe é a divindade menor das feras-cactus, sendo autom"
+    },
+    {
+      "source": "Inghlblhpholstgt",
+      "relation": "is_a",
+      "target": "a divindade menor do povosapo",
+      "evidence": "rado má gico. Nicho: Inghlblhpholstgt é a divindade menor do povosapo, sendo auto"
+    },
+    {
+      "source": "Este volumoso animal",
+      "relation": "is_a",
+      "target": "meio réptil",
+      "evidence": " na água. Geossauro: Este volumoso animal é meio réptil, meio mamífe"
+    },
+    {
+      "source": "Os génios também",
+      "relation": "is_a",
+      "target": "conhecidos por conceder desejos",
+      "evidence": "ia e armas mágicas). Os génios também são conhecidos por conceder desejos. na "
+    },
+    {
+      "source": "seus olhos",
+      "relation": "is_a",
+      "target": "muito vermel",
+      "evidence": "le tem cor de terra, seus olhos são muito vermel"
+    },
+    {
+      "source": "colossos da Tormenta",
+      "relation": "is_a",
+      "target": "lentos e desajeitados",
+      "evidence": "mágico. Ponto Fraco: colossos da Tormenta são lentos e desajeitados. um adversári"
+    },
+    {
+      "source": "Nem mesmo um Raio Desintegrador",
+      "relation": "is_a",
+      "target": "capaz de",
+      "evidence": "ada (ao invés de 1). Nem mesmo um Raio Desintegrador é capaz de"
+    },
+    {
+      "source": "por rodada",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "fogo). Custo: 2 PMs por rodada. Alcance: pessoal"
+    },
+    {
+      "source": "Todos os dragões da terra",
+      "relation": "is_a",
+      "target": "capazes de se comunicar com",
+      "evidence": "• Falar com Animais. Todos os dragões da terra são capazes de se comunicar com "
+    },
+    {
+      "source": "sempre que",
+      "relation": "is_a",
+      "target": "usada contra dragões a arma envolve o usuário",
+      "evidence": "obtiver 6). Por fim, sempre que é usada contra dragões a arma envolve o usuário"
+    },
+    {
+      "source": "o acervo de magias do feiticeiro",
+      "relation": "is_a",
+      "target": "limitado",
+      "evidence": "de Poder (–1 ponto): o acervo de magias do feiticeiro é limitado. Vo"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "ótimo para enganar os olhos",
+      "evidence": "e Poder (–2 pontos): você é ótimo para enganar os olhos, mas não pa"
+    },
+    {
+      "source": "O dragão-múmia",
+      "relation": "is_a",
+      "target": "tipo raro de necrodraco",
+      "evidence": " como dragõesmúmia. O dragão-múmia é um tipo raro de necrodraco, geralmente encontrado e"
+    },
+    {
+      "source": "o PdF de Apis",
+      "relation": "is_a",
+      "target": "considerado de uma escala superior",
+      "evidence": "Supercaracterística: o PdF de Apis é considerado de uma escala superior. Táticas "
+    },
+    {
+      "source": "banshees",
+      "relation": "is_a",
+      "target": "imunes a todos os venenos",
+      "evidence": "(sonico) Morto-Vivo: banshees são imunes a todos os venenos, doenças, magias que "
+    },
+    {
+      "source": "carniçais",
+      "relation": "is_a",
+      "target": "imunes a todos os venenos",
+      "evidence": "alisado. Morto-Vivo: carniçais são imunes a todos os venenos, doenças, magias que"
+    },
+    {
+      "source": "almas acorrentadas",
+      "relation": "is_a",
+      "target": "imunes a",
+      "evidence": "io/gelo) Morto-Vivo: almas acorrentadas são imunes a"
+    },
+    {
+      "source": "e a vítima",
+      "relation": "is_a",
+      "target": "considerada Indefesa",
+      "evidence": "turnos seguintes, e a vítima é considerada Indefesa. Uma vítima aprisionada só consegue atac"
+    },
+    {
+      "source": "dragotauros",
+      "relation": "is_a",
+      "target": "horrendos",
+      "evidence": "ifíceis. Monstruoso: dragotauros são horrendos. não podem possuir A"
+    },
+    {
+      "source": "TODOS os dragões de todas as espécies",
+      "relation": "is_a",
+      "target": "inimigo",
+      "evidence": "s Difíceis. Inimigo: TODOS os dragões de todas as espécies são inimigo"
+    },
+    {
+      "source": "e vice",
+      "relation": "school",
+      "target": "Branca",
+      "evidence": "vice-versa. Virtude Escola: Branca. Exigências: Clericato ou Pal"
+    },
+    {
+      "source": "PMs adicionais o volume de água criado",
+      "relation": "is_a",
+      "target": "multiplicado por",
+      "evidence": "potável. Para cada 3 PMs adicionais o volume de água criado é multiplicado por"
+    },
+    {
+      "source": "Dragões brancos muito antigos",
+      "relation": "is_a",
+      "target": "capazes de usar a magia",
+      "evidence": "• Manipular o Clima. Dragões brancos muito antigos são capazes de usar a magia "
+    },
+    {
+      "source": "Dragões aéreos muito antigos",
+      "relation": "is_a",
+      "target": "capazes de usar a magia C",
+      "evidence": "• Manipular o Clima. Dragões aéreos muito antigos são capazes de usar a magia C"
+    },
+    {
+      "source": "crítico",
+      "relation": "is_a",
+      "target": "anulado",
+      "evidence": " crítico é anulado, e você sofre apenas dano normal. Parede"
+    },
+    {
+      "source": "e você sofre apenas dano normal",
+      "relation": "school",
+      "target": "Eleme",
+      "evidence": "epatia ou magias da escola Eleme"
+    },
+    {
+      "source": "Esse não",
+      "relation": "is_a",
+      "target": "efeito mágico",
+      "evidence": "magia Petrificação. Esse não é um efeito mágico. Caçador, 20N"
+    },
+    {
+      "source": "eles dedicam a sua vida a destruição de tudo que",
+      "relation": "is_a",
+      "target": "bom no",
+      "evidence": "na da Área Desmorta, eles dedicam a sua vida a destruição de tudo que é bom no "
+    },
+    {
+      "source": "Telepatia Custo",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "ncias: Luz 3, Ar 2, Telepatia Custo: 2 PMs Duração: sustentável Alcance"
+    },
+    {
+      "source": "Telepatia Custo",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "xigências: Terra 3, Telepatia Custo: 1 PM Duração: sustentável Alcance:"
+    },
+    {
+      "source": "Clericato ou Paladino",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "ncias: Clericato ou Paladino. Custo: 1 PM. Alcance: toque; Duração: ins"
+    },
+    {
+      "source": "talvez a coisa mais assustadora nessas criaturas",
+      "relation": "is_a",
+      "target": "que ela",
+      "evidence": "a sanidade. De fato, talvez a coisa mais assustadora nessas criaturas é que ela"
+    },
+    {
+      "source": "esta forma clássica",
+      "relation": "is_a",
+      "target": "vista apenas nos machos da espécie",
+      "evidence": "ana e asas. De fato, esta forma clássica é vista apenas nos machos da espécie. "
+    },
+    {
+      "source": "Esse",
+      "relation": "is_a",
+      "target": "o preç",
+      "evidence": "cem não ter emoções. Esse é o preç"
+    },
+    {
+      "source": "es",
+      "relation": "is_a",
+      "target": "o dracolich",
+      "evidence": "es são o dracolich, o dragão-fantasma e o dragão-múmia, que"
+    },
+    {
+      "source": "Criação de Mortos",
+      "relation": "cost_pm",
+      "target": "3",
+      "evidence": "e Mortos-Vivos Escola: Negra. Custo: 3 PMs ou mais."
+    },
+    {
+      "source": "Criação de Mortos",
+      "relation": "school",
+      "target": "Negra",
+      "evidence": "ção de Mortos-Vivos Escola: Negra. Custo: 3 PMs ou mais."
+    },
+    {
+      "source": "O bufão",
+      "relation": "is_a",
+      "target": "o palhaço medieval",
+      "evidence": ". Função: dominante. O bufão é o palhaço medieval, o humoris"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "im",
+      "evidence": "o combate. Destemor: você é im"
+    },
+    {
+      "source": "m por ponto de Focus Esta",
+      "relation": "is_a",
+      "target": "apenas uma variação necr",
+      "evidence": "ente Alcance: até 10m por ponto de Focus Esta é apenas uma variação necr"
+    },
+    {
+      "source": "ilimitado Esta",
+      "relation": "is_a",
+      "target": "a das mais poderosas magias existentes",
+      "evidence": " permanente Alcance: ilimitado Esta é uma das mais poderosas magias existentes."
+    },
+    {
+      "source": "o poderoso veneno digestivo da aranha",
+      "relation": "effect",
+      "target": "um da",
+      "evidence": "istência: se falhar, o poderoso veneno digestivo da aranha causa um da"
+    },
+    {
+      "source": "o poderoso veneno debilitante",
+      "relation": "effect",
+      "target": "um dano diret",
+      "evidence": "istência: se falhar, o poderoso veneno debilitante causa um dano diret"
+    },
+    {
+      "source": "Este tipo de monstro",
+      "relation": "is_a",
+      "target": "raro na periferi",
+      "evidence": ", sofre dano normal. Este tipo de monstro é raro na periferi"
+    },
+    {
+      "source": "m e",
+      "relation": "is_a",
+      "target": "recobertos por",
+      "evidence": "tes atingem quase 18 m e são recobertos por "
+    },
+    {
+      "source": "Liches",
+      "relation": "is_a",
+      "target": "mais poderosos do que normal",
+      "evidence": "1, Poder de Fogo +1. Liches são mais poderosos do que normal, e por isso rec"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "automaticamente bem-sucedido em testes de Resistência contra efeitos da Torment",
+      "evidence": "om a Tormenta: você é automaticamente bem-sucedido em testes de Resistência contra efeitos da Torment"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "imune a todas as formas de",
+      "evidence": "idade contra veneno: você é imune a todas as formas de"
+    },
+    {
+      "source": "o ninja",
+      "relation": "is_a",
+      "target": "capaz de utilizar as magias Asfi",
+      "evidence": "mal. Técnicas ninja: o ninja é capaz de utilizar as magias Asfi"
+    },
+    {
+      "source": "sofre apenas dano normal",
+      "relation": "school",
+      "target": "Negra",
+      "evidence": "de lançar magias da escola Negra, "
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "dos expoentes máximos de sua raça",
+      "evidence": "ombate. Elfo eleito: você é um dos expoentes máximos de sua raça. "
+    },
+    {
+      "source": "Onis",
+      "relation": "is_a",
+      "target": "criat",
+      "evidence": "de+1, Resistência+1. Onis são criat"
+    },
+    {
+      "source": "Clericato Custo",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": " Trevas ou Terra 2, Clericato Custo: 1 PM por morto-vivo Duração: perma"
+    },
+    {
+      "source": "Clericato Custo",
+      "relation": "cost_pm",
+      "target": "6",
+      "evidence": "ias: Água ou Luz 4, Clericato Custo: 6 PMs Duração: instantânea Alcance"
+    },
+    {
+      "source": "Quase todas as medusas",
+      "relation": "is_a",
+      "target": "monstro",
+      "evidence": "stância e Esquivas). Quase todas as medusas são monstro"
+    },
+    {
+      "source": "e a vítima",
+      "relation": "is_a",
+      "target": "considerada indefesa",
+      "evidence": "turnos seguintes, e a vítima é considerada indefesa. uma vítima aprisionada só consegue atac"
+    },
+    {
+      "source": "Este tipo de monstro",
+      "relation": "is_a",
+      "target": "raro na periferia das áreas",
+      "evidence": ", sofre dano normal. Este tipo de monstro é raro na periferia das áreas"
+    },
+    {
+      "source": "Este tipo de monstro",
+      "relation": "is_a",
+      "target": "raro na periferia das áreas de Torm",
+      "evidence": ", sofre dano normal. Este tipo de monstro é raro na periferia das áreas de Torm"
+    },
+    {
+      "source": "as crias vampíricas",
+      "relation": "is_a",
+      "target": "vu",
+      "evidence": "as Crias Vampíricas: as crias vampíricas são vu"
+    },
+    {
+      "source": "seu corpo metálico",
+      "relation": "is_a",
+      "target": "disforme",
+      "evidence": "o). Incorporar arma: seu corpo metálico é disforme, não segui"
+    },
+    {
+      "source": "ao mesmo tempo",
+      "relation": "school",
+      "target": "s e",
+      "evidence": "todas as escolas e, ao mesmo tempo, nenhuma delas. Assim, a"
+    },
+    {
+      "source": "nada",
+      "relation": "is_a",
+      "target": "inevitável",
+      "evidence": "mas, ao mesmo tempo, nada é inevitável. Não acreditam em destino, ou que exista"
+    },
+    {
+      "source": "O samaritano",
+      "relation": "is_a",
+      "target": "um",
+      "evidence": " corte e perfuração. O samaritano é um"
+    },
+    {
+      "source": "o mundo de Arton",
+      "relation": "is_a",
+      "target": "explicado mais detalhadamente em outros",
+      "evidence": " entanto, se quiser, o mundo de Arton é explicado mais detalhadamente em outros"
+    },
+    {
+      "source": "Kobolds",
+      "relation": "is_a",
+      "target": "umas",
+      "evidence": " Katabrok tem razão! Kobolds são umas "
+    },
+    {
+      "source": "o Dragão-de-Aço",
+      "relation": "is_a",
+      "target": "inteligente e",
+      "evidence": "dos golens normais, o Dragão-de-Aço é inteligente e, frustrado por não conhecer seu próp"
+    },
+    {
+      "source": "Eles",
+      "relation": "is_a",
+      "target": "maus",
+      "evidence": ", incapazes de voar. Eles são maus, inteligentes e predatóri"
+    },
+    {
+      "source": "Sua pele normalmente",
+      "relation": "is_a",
+      "target": "vermelha escura e ele pesa em torno",
+      "evidence": " de 4,5 m de altura. Sua pele normalmente é vermelha escura e ele pesa em torno"
+    },
+    {
+      "source": "Dragões aéreos jovens",
+      "relation": "is_a",
+      "target": "capazes de utilizar a magia Enxa",
+      "evidence": "• Enxame de Trovões. Dragões aéreos jovens são capazes de utilizar a magia Enxa"
+    },
+    {
+      "source": "o olho de bruxa",
+      "relation": "is_a",
+      "target": "usado em um anel",
+      "evidence": "corpo. Muitas vezes, o olho de bruxa é usado em um anel, broche ou outro adorno"
+    },
+    {
+      "source": "estas criaturas",
+      "relation": "is_a",
+      "target": "forçadas a comer cobras",
+      "evidence": "firas. Muitas vezes, estas criaturas são forçadas a comer cobras, lagartos e pl"
+    },
+    {
+      "source": "braquiossauros",
+      "relation": "is_a",
+      "target": "tão gr",
+      "evidence": "no ombro. Pisoterar: braquiossauros são tão gr"
+    },
+    {
+      "source": "uma múmia",
+      "relation": "is_a",
+      "target": "invulneráve",
+      "evidence": ". Invulnerabilidade: uma múmia é invulneráve"
+    },
+    {
+      "source": "distância",
+      "relation": "is_a",
+      "target": "igual à sua Força",
+      "evidence": "distância é igual à sua Força, como se ela fosse PdF (pg. 73 do Manual"
+    },
+    {
+      "source": "caçadores",
+      "relation": "is_a",
+      "target": "criados com uma diretriz e vão cum",
+      "evidence": "nvisível); Devoção (caçadores são criados com uma diretriz e vão cum"
+    },
+    {
+      "source": "Esta criatura agressiva",
+      "relation": "is_a",
+      "target": "totalmente invulnerável a ataque",
+      "evidence": "r (últimas palavras) Esta criatura agressiva é totalmente invulnerável a ataque"
+    },
+    {
+      "source": "Este monstro",
+      "relation": "is_a",
+      "target": "a variedade gigante da sépia",
+      "evidence": "r (últimas palavras) Este monstro é uma variedade gigante da sépia, ou siba — u"
+    },
+    {
+      "source": "Este bípede escamoso",
+      "relation": "is_a",
+      "target": "alto como um edifício de cinco anda",
+      "evidence": "a (últimas palavras) Este bípede escamoso é alto como um edifício de cinco anda"
+    },
+    {
+      "source": "Wyverns",
+      "relation": "is_a",
+      "target": "imensos lagartos bípedes alados",
+      "evidence": "o (últimas palavras) Wyverns são imensos lagartos bípedes alados, medindo entre"
+    },
+    {
+      "source": "que já",
+      "relation": "is_a",
+      "target": "mágicas",
+      "evidence": "que já são mágicas. Ao invés disso, permanecerá o bônus mai"
+    },
+    {
+      "source": "por criatura",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "ricato. Custo: 1 PM por criatura. Alcance: toque;"
+    },
+    {
+      "source": "Essa",
+      "relation": "is_a",
+      "target": "a magia div",
+      "evidence": "uração: sustentável. Essa é uma magia div"
+    },
+    {
+      "source": "Desespero",
+      "relation": "is_a",
+      "target": "a vers",
+      "evidence": "uração: sustentável. Desespero é uma vers"
+    },
+    {
+      "source": "o custo em",
+      "relation": "school",
+      "target": "de Magia",
+      "evidence": "ua Escola de Magia, o custo em PMs para a conjuração, o cus"
+    },
+    {
+      "source": "a primeira",
+      "relation": "is_a",
+      "target": "gratuita",
+      "evidence": "a cada magia. Assim, a primeira é gratuita, a segund"
+    },
+    {
+      "source": "Dragões de prata",
+      "relation": "is_a",
+      "target": "capazes de ca",
+      "evidence": "Caminhar nas Nuvens. Dragões de prata são capazes de ca"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "famoso",
+      "evidence": " todos. Outra coisa: você é famoso "
+    },
+    {
+      "source": "A lança",
+      "relation": "is_a",
+      "target": "a das armas mais antigas e p",
+      "evidence": "l. Função: atacante. A lança é uma das armas mais antigas e p"
+    },
+    {
+      "source": "capturar uma mantícora viva",
+      "relation": "is_a",
+      "target": "a missão extremamente difí",
+      "evidence": "ar. Por esse motivo, capturar uma mantícora viva é uma missão extremamente difí"
+    },
+    {
+      "source": "idade",
+      "relation": "is_a",
+      "target": "cumulativa",
+      "evidence": "idade é cumulativa. Sentido sobrenatural (youkai): você sem"
+    },
+    {
+      "source": "Este poder não",
+      "relation": "is_a",
+      "target": "cumulati",
+      "evidence": "nçar qualquer magia. Este poder não é cumulati"
+    },
+    {
+      "source": "os druidas",
+      "relation": "is_a",
+      "target": "os mais",
+      "evidence": "s servos dos deuses, os druidas são os mais "
+    },
+    {
+      "source": "Paladinos",
+      "relation": "is_a",
+      "target": "conhecidos como campeões gloriosos",
+      "evidence": " atacante ou tanque. Paladinos são conhecidos como campeões gloriosos, soldados"
+    },
+    {
+      "source": "O sopro dos dragões azuis",
+      "relation": "is_a",
+      "target": "a rajada de el",
+      "evidence": "ental (ar). • Sopro. O sopro dos dragões azuis é uma rajada de el"
+    },
+    {
+      "source": "Dragões marinhos adultos",
+      "relation": "is_a",
+      "target": "capazes de transformar qualqu",
+      "evidence": "do. • Destruir Água. Dragões marinhos adultos são capazes de transformar qualqu"
+    },
+    {
+      "source": "Dragões marinhos antigos",
+      "relation": "is_a",
+      "target": "capazes de controlar criatura",
+      "evidence": " • Controlar Peixes. Dragões marinhos antigos são capazes de controlar criatura"
+    },
+    {
+      "source": "Dragões de prata",
+      "relation": "is_a",
+      "target": "capazes de caminhar em nuvens e névoa",
+      "evidence": "Caminhar nas Nuvens. Dragões de prata são capazes de caminhar em nuvens e névoa"
+    },
+    {
+      "source": "Magia Extrema",
+      "relation": "school",
+      "target": "de magia permite que efeitos e danos das magias",
+      "evidence": "Magia Extrema: essa escola de magia permite que efeitos e danos das magias "
+    },
+    {
+      "source": "Magia Extrema",
+      "relation": "school",
+      "target": "de magia permite que efeitos e danos das magia",
+      "evidence": "Magia Extrema. Essa escola de magia permite que efeitos e danos das magia"
+    },
+    {
+      "source": "uma Máquina",
+      "relation": "is_a",
+      "target": "totalmente obedie",
+      "evidence": "trário de um Aliado, uma Máquina é totalmente obedie"
+    },
+    {
+      "source": "por criatura Duração",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": " Água 2 Custo: 1 PM por criatura Duração: sustent"
+    },
+    {
+      "source": "padrão Esta",
+      "relation": "is_a",
+      "target": "a das magias mais cob",
+      "evidence": "veja abaixo Alcance: padrão Esta é uma das magias mais cob"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "dos ex",
+      "evidence": "ombate. Elfo eleito: você é um dos ex"
+    },
+    {
+      "source": "A criatura",
+      "relation": "is_a",
+      "target": "humanóide d",
+      "evidence": "e. Arconte Guardião: A criatura é um humanóide d"
+    },
+    {
+      "source": "O ataque da rã",
+      "relation": "is_a",
+      "target": "ainda mais",
+      "evidence": "ano (que ignora FD). O ataque da rã é ainda mais"
+    },
+    {
+      "source": "um ataque não",
+      "relation": "is_a",
+      "target": "considerado como agarrar",
+      "evidence": "s de dano por turno, um ataque não é considerado como agarrar. Enredar: O chico"
+    },
+    {
+      "source": "o monstro",
+      "relation": "is_a",
+      "target": "o ser com maior capacidade de aprendizado entre",
+      "evidence": ". Memória Expandida: o monstro é o ser com maior capacidade de aprendizado entre "
+    },
+    {
+      "source": "Todos os PVs perdidos com este ataque",
+      "relation": "is_a",
+      "target": "recuperado em aproximadament",
+      "evidence": "rdam em 1d6 turnos. Todos os PVs perdidos com este ataque é recuperado em aproximadament"
+    },
+    {
+      "source": "Todos os PVs perdidos com este ataque",
+      "relation": "is_a",
+      "target": "recuperados em aproximadam",
+      "evidence": "rdam em 1d6 turnos. Todos os PVs perdidos com este ataque são recuperados em aproximadam"
+    },
+    {
+      "source": "O que",
+      "relation": "is_a",
+      "target": "aquilo no peito dele",
+      "evidence": "A1, PdF0 Incubador “O que é aquilo no peito dele"
+    },
+    {
+      "source": "efeito e testes para resistir",
+      "relation": "is_a",
+      "target": "os mesmo",
+      "evidence": "ago). As exigências, efeito e testes para resistir são os mesmo"
+    },
+    {
+      "source": "Sua divindade principal",
+      "relation": "is_a",
+      "target": "o Grande Oceano",
+      "evidence": "uns casos, clérigos. Sua divindade principal é o Grande Oceano, senho"
+    },
+    {
+      "source": "Freqüentemente símbolos sagrados",
+      "relation": "is_a",
+      "target": "gravados no traje",
+      "evidence": "ias e armas mágicas. Freqüentemente símbolos sagrados são gravados no traje, tr"
+    },
+    {
+      "source": "PV por turno enquanto",
+      "relation": "is_a",
+      "target": "tocada",
+      "evidence": "os. A vítima perde 1 PV por turno enquanto é tocada. Tocar alguém contra a sua"
+    },
+    {
+      "source": "PM por turno enquanto",
+      "relation": "is_a",
+      "target": "tocada",
+      "evidence": "os. A vítima perde 1 PM por turno enquanto é tocada. Tocar alguém contra a sua"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "afetadas",
+      "evidence": "dura. Vítimas com A0 não são afetadas. A"
+    },
+    {
+      "source": "seu corpo",
+      "relation": "is_a",
+      "target": "protegido por uma armadura completa",
+      "evidence": ". Armadura completa: seu corpo é protegido por uma armadura completa. Quando você"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "negociador feroz",
+      "evidence": "rton. Língua ferina: você é um negociador feroz, fazendo uso das palavras para do"
+    },
+    {
+      "source": "escolha do mestre",
+      "relation": "school",
+      "target": "Eleme",
+      "evidence": "epatia ou magias da escola Eleme"
+    },
+    {
+      "source": "Os dragões adultos maduros",
+      "relation": "is_a",
+      "target": "capazes de ampliar plantas",
+      "evidence": ". • Ampliar Plantas. Os dragões adultos maduros são capazes de ampliar plantas "
+    },
+    {
+      "source": "por turno Duração",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": ", Luz 2 Custo: 1 PM por turno Duração: sustentáve"
+    },
+    {
+      "source": "padrão O efeito desta magia rara",
+      "relation": "is_a",
+      "target": "se",
+      "evidence": "sustentável Alcance: padrão O efeito desta magia rara é se"
+    },
+    {
+      "source": "o poderoso veneno digestivo da aranha",
+      "relation": "effect",
+      "target": "um",
+      "evidence": "istência: se falhar, o poderoso veneno digestivo da aranha causa um "
+    },
+    {
+      "source": "o poderoso veneno debilitante",
+      "relation": "effect",
+      "target": "um dano dir",
+      "evidence": "istência: se falhar, o poderoso veneno debilitante causa um dano dir"
+    },
+    {
+      "source": "priodontes",
+      "relation": "is_a",
+      "target": "grandes tatus que possuem algun",
+      "evidence": "Imortal (dilacerado) priodontes são grandes tatus que possuem algun"
+    },
+    {
+      "source": "A diferença",
+      "relation": "is_a",
+      "target": "que a pessoa fica imediatamente apaixonada p",
+      "evidence": "r à Dominação Total. A diferença é que a pessoa fica imediatamente apaixonada p"
+    },
+    {
+      "source": "Dragões verdes antigos",
+      "relation": "is_a",
+      "target": "capazes de utilizar a magia Dom",
+      "evidence": ". • Dominação Total. Dragões verdes antigos são capazes de utilizar a magia Dom"
+    },
+    {
+      "source": "o próprio górgona não",
+      "relation": "is_a",
+      "target": "afetado por essa magia",
+      "evidence": "Desnecessário dizer, o próprio górgona não é afetado por essa magia, mesmo quan"
+    },
+    {
+      "source": "mas invocar dragões",
+      "relation": "is_a",
+      "target": "extremamente arriscado",
+      "evidence": "Desnecessário dizer, mas invocar dragões é extremamente arriscado. Um crime pun"
+    },
+    {
+      "source": "A presença do montro",
+      "relation": "is_a",
+      "target": "tão hor intimidad",
+      "evidence": "s. Aparência Insana: A presença do montro é tão hor intimidad"
+    },
+    {
+      "source": "élfica e meio-élfica",
+      "relation": "is_a",
+      "target": "as mais comuns",
+      "evidence": "emi-humana – élfica e meio-élfica são as mais comuns, mas também podem ser halflings e"
+    },
+    {
+      "source": "ogres não podem possuir Aparência Inofensiva e",
+      "relation": "is_a",
+      "target": "recebidos",
+      "evidence": "humanos. Monstruoso: ogres não podem possuir Aparência Inofensiva e são recebidos"
+    },
+    {
+      "source": "Esta",
+      "relation": "is_a",
+      "target": "a Vantagem Única que - inclui visão noturna",
+      "evidence": " elfos-do-céu. Esta é uma Vantagem Única que - inclui visão noturna, H + 1 (até um máximo de H"
+    },
+    {
+      "source": "Dragão-múmia",
+      "relation": "is_a",
+      "target": "a Vantagem Única que",
+      "evidence": "dores. Dragão-múmia é uma Vantagem Única que"
+    },
+    {
+      "source": "os bandos de gigantes",
+      "relation": "is_a",
+      "target": "famílias",
+      "evidence": " conjunto. Em geral, os bandos de gigantes são famílias "
+    },
+    {
+      "source": "a vítima",
+      "relation": "is_a",
+      "target": "obrigada a fazer imediatamente um teste de Arm",
+      "evidence": "ela FA do atacante), a vítima é obrigada a fazer imediatamente um teste de Arm"
+    },
+    {
+      "source": "que",
+      "relation": "is_a",
+      "target": "transferidos diretamente para o E",
+      "evidence": "er 1d PVs por turno, que são transferidos diretamente para o E"
+    },
+    {
+      "source": "Kaapora",
+      "relation": "is_a",
+      "target": "os Kaapora",
+      "evidence": "al sem pagar pontos. Kaapora São os Kaapora"
+    },
+    {
+      "source": "sua tática predileta",
+      "relation": "is_a",
+      "target": "atacar e fugir na esperança de cans",
+      "evidence": ". Em ambos os casos, sua tática predileta é atacar e fugir na esperança de cans"
+    },
+    {
+      "source": "tais criaturas quase sempre",
+      "relation": "is_a",
+      "target": "provenientes dos Reinos do",
+      "evidence": ". Em ambos os casos, tais criaturas quase sempre são provenientes dos Reinos do"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "difícil encontrar toda a sorte de tesouros abandonad",
+      "evidence": ". Em ambos os casos, não é difícil encontrar toda a sorte de tesouros abandonad"
+    },
+    {
+      "source": "Todos os dragões marinhos",
+      "relation": "is_a",
+      "target": "capazes de andar sobre",
+      "evidence": "os. • Andar na Água. Todos os dragões marinhos são capazes de andar sobre "
+    },
+    {
+      "source": "por Eduardo Kawamoto Escola",
+      "relation": "cost_pm",
+      "target": "20",
+      "evidence": "to Escola: Elemental (todas). Custo: 20 PMs ou mais por hora. Alcance: "
+    },
+    {
+      "source": "por Eduardo Kawamoto Escola",
+      "relation": "cost_pm",
+      "target": "4",
+      "evidence": "Escola: Elemental (espírito). Custo: 4 PMs. Alcance: pessoal; Duraçã"
+    },
+    {
+      "source": "por Eduardo Kawamoto Escola",
+      "relation": "cost_pm",
+      "target": "5",
+      "evidence": "uardo Kawamoto Escola: Negra. Custo: 5 PMs por turno. Alcance: pessoal;"
+    },
+    {
+      "source": "por Eduardo Kawamoto Escola",
+      "relation": "school",
+      "target": "Negra",
+      "evidence": "or Eduardo Kawamoto Escola: Negra. Custo: 5 PMs por turno. Alcance: pessoa"
+    },
+    {
+      "source": "Aura",
+      "relation": "is_a",
+      "target": "a forma",
+      "evidence": "o à longa distância. Aura é uma forma"
+    },
+    {
+      "source": "Aura",
+      "relation": "is_a",
+      "target": "a forma diferenciada de Aumento de Dano",
+      "evidence": "o à longa distância. Aura é uma forma diferenciada de Aumento de Dano."
+    },
+    {
+      "source": "ou Negra",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "a, Elemental (fogo) ou Negra. Custo: 2 PMs por pessoa. Alcance: toque; "
+    },
+    {
+      "source": "ou Negra",
+      "relation": "cost_pm",
+      "target": "3",
+      "evidence": "ola: Elemental (ar) ou Negra. Custo: 3 PMs. Alcance: longo. Duração: pe"
+    },
+    {
+      "source": "criar mortos-vivos",
+      "relation": "is_a",
+      "target": "crime horrí",
+      "evidence": " maioria dos mundos, criar mortos-vivos é um crime horrí"
+    },
+    {
+      "source": "Divinas Serpentes",
+      "relation": "is_a",
+      "target": "vulneráveis ao frio",
+      "evidence": "to. Vulnerabilidade. Divinas Serpentes são vulneráveis ao frio"
+    },
+    {
+      "source": "Dragões adultos e mais velhos",
+      "relation": "is_a",
+      "target": "capazes de fazer suas ga",
+      "evidence": "hos. • Mãos de Fogo. Dragões adultos e mais velhos são capazes de fazer suas ga"
+    },
+    {
+      "source": "Kits de Personagem Kits",
+      "relation": "is_a",
+      "target": "uma opção que não ex",
+      "evidence": "o Cassaro “Paladino” Kits de Personagem Kits são uma opção que não ex"
+    },
+    {
+      "source": "porque ela",
+      "relation": "is_a",
+      "target": "venerada",
+      "evidence": "m clérigos de Wynna, porque ela é venerada"
+    },
+    {
+      "source": "Esta",
+      "relation": "is_a",
+      "target": "toda a munição que você cons",
+      "evidence": "tiros, por exemplo). Esta é toda a munição que você cons"
+    },
+    {
+      "source": "quando você",
+      "relation": "effect",
+      "target": "dano contra um alvo indefeso",
+      "evidence": "lpe de misericórdia: quando você causa dano contra um alvo indefeso, ele deve faz"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "automaticamente bem sucedido em seu Teste de",
+      "evidence": "Caso chegue a 0 PVs, você é automaticamente bem sucedido em seu Teste de "
+    },
+    {
+      "source": "a vítima",
+      "relation": "is_a",
+      "target": "desintegrada",
+      "evidence": "orrência desse dano, a vítima é desintegrada."
+    },
+    {
+      "source": "Um elementalista",
+      "relation": "is_a",
+      "target": "mago que se especializou de tal mane",
+      "evidence": "luarte ou dominante. Um elementalista é um mago que se especializou de tal mane"
+    },
+    {
+      "source": "Tudo o que vemos",
+      "relation": "is_a",
+      "target": "luz refletida",
+      "evidence": "luarte ou dominante. Tudo o que vemos é luz refletida. Assim, o caminho da luz "
+    },
+    {
+      "source": "A Deusa do Conhecimento não",
+      "relation": "is_a",
+      "target": "necessariamente pacífica",
+      "evidence": "luarte ou dominante. A Deusa do Conhecimento não é necessariamente pacífica. Co"
+    },
+    {
+      "source": "a chama",
+      "relation": "is_a",
+      "target": "a fonte de sua força",
+      "evidence": "uplicada. Obliterar: a chama é a fonte de sua força. Quando consegue um acerto cr"
+    },
+    {
+      "source": "poucos",
+      "relation": "is_a",
+      "target": "tão hábeis em desaparecer da vista de captores qu",
+      "evidence": " gatunos. Despistar: poucos são tão hábeis em desaparecer da vista de captores qu"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "especialmente talentoso para fugir",
+      "evidence": "morrer). Fuga veloz: você é especialmente talentoso para fugir, e "
+    },
+    {
+      "source": "Uma lança",
+      "relation": "is_a",
+      "target": "mais barata",
+      "evidence": "ores armas de Arton. Uma lança é mais barata"
+    },
+    {
+      "source": "mas ainda assim",
+      "relation": "is_a",
+      "target": "capazes de voar",
+      "evidence": "não apresentam asas, mas ainda assim são capazes de voar"
+    },
+    {
+      "source": "mas ela",
+      "relation": "is_a",
+      "target": "pouco menos efeti",
+      "evidence": " atacar com a cauda, mas ela é um pouco menos efeti"
+    },
+    {
+      "source": "o Besouro Bestial",
+      "relation": "is_a",
+      "target": "verdadeiro encouraçado da natureza",
+      "evidence": "carapaça quitinosa, o Besouro Bestial é um verdadeiro encouraçado da natureza. As mandíbulas entrecruza"
+    },
+    {
+      "source": "Táticas A Fera-Mãe",
+      "relation": "is_a",
+      "target": "protegida por centenas de clérigos e guerreiros que a",
+      "evidence": "a surpresa. Táticas A Fera-Mãe é protegida por centenas de clérigos e guerreiros que a"
+    },
+    {
+      "source": "Diz que",
+      "relation": "is_a",
+      "target": "perigoso",
+      "evidence": " que não devo ir lá. Diz que é perigoso. Malig"
+    },
+    {
+      "source": "mação",
+      "relation": "is_a",
+      "target": "permanente",
+      "evidence": "mação é permanente. Verme Fantasma, 3N"
+    },
+    {
+      "source": "O Deus Menor das Masmorras",
+      "relation": "is_a",
+      "target": "mímico nativo de Odisseia",
+      "evidence": "frida aos inimigos. O Deus Menor das Masmorras é um mímico nativo de Odisseia, o plano de Valkaria, conjurado po"
+    },
+    {
+      "source": "ões em que",
+      "relation": "is_a",
+      "target": "usada",
+      "evidence": "ões em que é usada. Nesses casos, a Habilidade poderia ultr"
+    },
+    {
+      "source": "Táticas Como",
+      "relation": "is_a",
+      "target": "incapaz de sair do lugar",
+      "evidence": "ão aguçada e radar). Táticas Como é incapaz de sair do lugar, o Devorador do D"
+    },
+    {
+      "source": "Todos os ataques do verme púrpura",
+      "relation": "is_a",
+      "target": "considerad",
+      "evidence": "indefesos. Venenoso. Todos os ataques do verme púrpura são considerad"
+    },
+    {
+      "source": "ssa forma",
+      "relation": "is_a",
+      "target": "igual à R do conjurador",
+      "evidence": "ssa forma é igual à R do conjurador. É possível ultrapassar os limites das d"
+    },
+    {
+      "source": "Só",
+      "relation": "is_a",
+      "target": "possível adquirir esse tesour",
+      "evidence": "falhar, ficará cega. Só é possível adquirir esse tesour"
+    },
+    {
+      "source": "os estrangeiros eLFin a cidade no topo das árvores",
+      "relation": "is_a",
+      "target": "bela mas",
+      "evidence": "específico de dano. os estrangeiros eLFin a cidade no topo das árvores é bela mas...."
+    },
+    {
+      "source": "Sua Habilidade não",
+      "relation": "is_a",
+      "target": "levada",
+      "evidence": "onsiderado Indefeso. Sua Habilidade não é levada"
+    },
+    {
+      "source": "Luz ou Trevas",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "a Exigências: Luz ou Trevas 2 Custo: 1 PM por criatura Duração: permane"
+    },
+    {
+      "source": "extrair um simbonte",
+      "relation": "is_a",
+      "target": "quase impossível",
+      "evidence": "uase todos os casos, extrair um simbonte é quase impossível. Uma vez que ele es"
+    },
+    {
+      "source": "Kobolds não",
+      "relation": "is_a",
+      "target": "muito inteligentes",
+      "evidence": "a e Modelo Especial. Kobolds não são muito inteligentes, além"
+    },
+    {
+      "source": "O mais comum",
+      "relation": "is_a",
+      "target": "que o elemental ataque primeiro e",
+      "evidence": "bertando a criatura. O mais comum é que o elemental ataque primeiro e, se achar"
+    },
+    {
+      "source": "o Dragão-de-Aço",
+      "relation": "is_a",
+      "target": "inteligent",
+      "evidence": " dos golens normais, o Dragão-de-Aço é inteligent"
+    },
+    {
+      "source": "guerreiro anão",
+      "relation": "is_a",
+      "target": "a imensa salamandra",
+      "evidence": "monstro?!” — Druuro, guerreiro anão é uma imensa salamandra, com pe"
+    },
+    {
+      "source": "Outros sustentam que eles",
+      "relation": "is_a",
+      "target": "o resultado de rituais profa",
+      "evidence": ", gerando o monstro. Outros sustentam que eles são o resultado de rituais profa"
+    },
+    {
+      "source": "Águia Gigante As águias gigantes",
+      "relation": "is_a",
+      "target": "aves de",
+      "evidence": " bico (FA=F+H + 1d). Águia Gigante As águias gigantes são aves de"
+    },
+    {
+      "source": "Os solares",
+      "relation": "is_a",
+      "target": "poderosos campeões",
+      "evidence": " clericato. Combate: Os solares são poderosos campeões"
+    },
+    {
+      "source": "Os solares",
+      "relation": "is_a",
+      "target": "poderosos campeões do bem",
+      "evidence": " clericato. Combate: Os solares são poderosos campeões do bem. apenas "
+    },
+    {
+      "source": "porém ainda",
+      "relation": "is_a",
+      "target": "modesta se comparada as feiras de Moacuba e",
+      "evidence": "es duram 24 por dia, porém ainda é modesta se comparada as feiras de Moacuba e "
+    },
+    {
+      "source": "poções ou outros itens mágicos de cura",
+      "relation": "school",
+      "target": "Branca quanto Cura para os Mortos",
+      "evidence": "s de cura, tanto da escola Branca quanto Cura para os Mortos, embora "
+    },
+    {
+      "source": "as couatls ao sol",
+      "relation": "is_a",
+      "target": "multicolori",
+      "evidence": "entadas aos dragões. as couatls ao sol são multicolori"
+    },
+    {
+      "source": "A mais Baixa casta Lefeu",
+      "relation": "is_a",
+      "target": "formada de soldados e ope",
+      "evidence": " Lefeu CASTA uKTRIL: A mais Baixa casta Lefeu é formada de soldados e ope"
+    },
+    {
+      "source": "o poder de Fogo",
+      "relation": "is_a",
+      "target": "tão po",
+      "evidence": " trate de uma magia, o poder de Fogo é tão po"
+    },
+    {
+      "source": "O custo para fabricar essa roupa",
+      "relation": "is_a",
+      "target": "equivalen",
+      "evidence": "Extra (calor/ fogo). O custo para fabricar essa roupa é equivalen"
+    },
+    {
+      "source": "a maior parte deles",
+      "relation": "is_a",
+      "target": "ainda maiores e",
+      "evidence": " 2,5 e 3m de altura. a maior parte deles são ainda maiores e"
+    },
+    {
+      "source": "Estas criaturas",
+      "relation": "is_a",
+      "target": "muitas vezes co",
+      "evidence": " 10m de comprimento. Estas criaturas são muitas vezes co"
+    },
+    {
+      "source": "Mago linch du MAL Os homens-serpente",
+      "relation": "is_a",
+      "target": "uma raça antiga e traiçoeira",
+      "evidence": ", Mago linch du MAL Os homens-serpente são uma raça antiga e traiçoeira, composta por cri"
+    },
+    {
+      "source": "Os homens-sapo acreditam que Catoblepas",
+      "relation": "is_a",
+      "target": "enviado do próprio deus",
+      "evidence": ", H3, R4, A5, PdF0. Os homens-sapo acreditam que Catoblepas é um enviado do próprio deus "
+    },
+    {
+      "source": "ela fica presa e",
+      "relation": "is_a",
+      "target": "co",
+      "evidence": "da vítima em ambos), ela fica presa e é co"
+    },
+    {
+      "source": "esta magia",
+      "relation": "effect",
+      "target": "dano em vez de curar",
+      "evidence": "s, esta magia CAUSA dano em vez de curar. Para curar PVs em Mortos-Vivos existe u"
+    },
+    {
+      "source": "Dragões de bronze",
+      "relation": "is_a",
+      "target": "invulneráveis",
+      "evidence": "• Invulnerabilidade. Dragões de bronze são invulneráveis "
+    },
+    {
+      "source": "las e domesticá-las",
+      "relation": "is_a",
+      "target": "possível",
+      "evidence": "las e domesticá-las é possível, mas tão perigoso que poucos se arriscam"
+    },
+    {
+      "source": "Também",
+      "relation": "is_a",
+      "target": "possível",
+      "evidence": "rito a H×5). Também é possível, por 1 PM, aumentar ou diminuir em um ní"
+    },
+    {
+      "source": "wemics",
+      "relation": "is_a",
+      "target": "extremamente honestos e ingênuos",
+      "evidence": "onra da Honestidade: wemics são extremamente honestos e ingênuos. Em hipótese alg"
+    },
+    {
+      "source": "natural ou mágico",
+      "relation": "element",
+      "target": "sua Armadura é",
+      "evidence": "as por este tipo de elemento sua Armadura é "
+    },
+    {
+      "source": "Assim que as palavras são proferidas e a magia",
+      "relation": "is_a",
+      "target": "lança",
+      "evidence": "as sem consumir PMs. Assim que as palavras são proferidas e a magia é lança"
+    },
+    {
+      "source": "Assim que as palavras",
+      "relation": "is_a",
+      "target": "proferidas e a magia é lança",
+      "evidence": "as sem consumir PMs. Assim que as palavras são proferidas e a magia é lança"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "dobrados por um Crítico",
+      "evidence": "(como H+2 por Arena) não são dobrados por um Crítico. Caso sua Força, Armadura "
+    },
+    {
+      "source": "Edição",
+      "relation": "is_a",
+      "target": "jogo de heróis e vilões poderosos",
+      "evidence": "ensores de Tóquio 3ª Edição é um jogo de heróis e vilões poderosos. Enquanto "
+    },
+    {
+      "source": "Este",
+      "relation": "is_a",
+      "target": "principalmente um jogo de heróis poderoso",
+      "evidence": "de Tóquio 3ª Edição. Este é principalmente um jogo de heróis poderoso"
+    },
+    {
+      "source": "Este",
+      "relation": "is_a",
+      "target": "o mundo onde aconteceram a",
+      "evidence": "ões ameaçam aldeias. Este é o mundo onde aconteceram a"
+    },
+    {
+      "source": "Na verdade",
+      "relation": "is_a",
+      "target": "poucas as diferenças",
+      "evidence": " e xamãs (clérigos). Na verdade são poucas as diferenças, pois ambos"
+    },
+    {
+      "source": "Este também",
+      "relation": "is_a",
+      "target": "o mundo onde aconte",
+      "evidence": "ões ameaçam aldeias. Este também é o mundo onde aconte"
+    },
+    {
+      "source": "Mas estes não",
+      "relation": "is_a",
+      "target": "os únicos",
+      "evidence": "o mundo de Tormenta. Mas estes não são os únicos. Escondidos nos mais variados "
+    },
+    {
+      "source": "Arton",
+      "relation": "is_a",
+      "target": "o mundo de Tormenta",
+      "evidence": " criaturas. Arton é o mundo de Tormenta, nosso cenário de campanha oficial — um "
+    },
+    {
+      "source": "do personagem",
+      "relation": "school",
+      "target": "Branca",
+      "evidence": "agem. Abençoar Arma Escola: Branca. Exigências: Paladino ou Cler"
+    },
+    {
+      "source": "Este bônus não",
+      "relation": "is_a",
+      "target": "considerado mágico",
+      "evidence": " (FD) do personagem. Este bônus não é considerado mágico, e por isso pode ser a"
+    },
+    {
+      "source": "ou mais por hora",
+      "relation": "cost_pm",
+      "target": "20",
+      "evidence": "das). Custo: 20 PMs ou mais por hora. Alcance: p"
+    },
+    {
+      "source": "Branca ou Negra",
+      "relation": "school",
+      "target": "Branca ou Negra",
+      "evidence": " Sete Vidas Escola: Branca ou Negra."
+    },
+    {
+      "source": "Branca ou Negra",
+      "relation": "cost_pm",
+      "target": "15",
+      "evidence": "idas Escola: Branca ou Negra. Custo: 15 PMs. Alcance: pessoal; Duração: "
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "capaz de",
+      "evidence": "Khalmyr, entretanto, não é capaz de"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "capaz de detectar criaturas escondidas",
+      "evidence": "Khalmyr, entretanto, não é capaz de detectar criaturas escondidas, "
+    },
+    {
+      "source": "Dragões de bronze adultos e mais velhos",
+      "relation": "is_a",
+      "target": "capazes de usa",
+      "evidence": "e Frutas e Vegetais. Dragões de bronze adultos e mais velhos são capazes de usa"
+    },
+    {
+      "source": "Sempre que",
+      "relation": "is_a",
+      "target": "alvo de alguma magia que",
+      "evidence": "Resistência à Magia. Sempre que é alvo de alguma magia que"
+    },
+    {
+      "source": "Algumas vezes esta poção",
+      "relation": "is_a",
+      "target": "usada par",
+      "evidence": "er sempre a verdade. Algumas vezes esta poção é usada par"
+    },
+    {
+      "source": "Em geral os testes",
+      "relation": "is_a",
+      "target": "considerados Fáceis",
+      "evidence": "oagem (de Esportes). Em geral os testes são considerados Fáceis, mas em certas"
+    },
+    {
+      "source": "PVs e PMs Os dragões",
+      "relation": "is_a",
+      "target": "muito resistentes e possuem gran",
+      "evidence": "o diga o contrário). PVs e PMs Os dragões são muito resistentes e possuem gran"
+    },
+    {
+      "source": "Quando a flauta",
+      "relation": "is_a",
+      "target": "tocada",
+      "evidence": " utilizar este item. Quando a flauta é tocada, o som "
+    },
+    {
+      "source": "o servos",
+      "relation": "is_a",
+      "target": "Tenebra",
+      "evidence": "o servos é Tenebra, Deusa das Trevas – e geralmente apenas "
+    },
+    {
+      "source": "Através dela",
+      "relation": "is_a",
+      "target": "possível invocar o len",
+      "evidence": "incluindo Paladinos. Através dela é possível invocar o len"
+    },
+    {
+      "source": "O Controle",
+      "relation": "is_a",
+      "target": "pouco menos eficiente que o Escon",
+      "evidence": "esistência –1 (2–1). O Controle é um pouco menos eficiente que o Escon"
+    },
+    {
+      "source": "Também",
+      "relation": "is_a",
+      "target": "verdade que o",
+      "evidence": "ica visual de anime. Também é verdade que o"
+    },
+    {
+      "source": "você e seu cavalo",
+      "relation": "is_a",
+      "target": "ligados de uma maneir",
+      "evidence": "cial. Fúria montada: você e seu cavalo são ligados de uma maneir"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "imune a magia Pânico",
+      "evidence": "uanto está em Fúria, você é imune a magia Pânico, e é automaticamente bem-suced"
+    },
+    {
+      "source": "estes guerreiros malignos",
+      "relation": "is_a",
+      "target": "verdadeiros exércitos em uma",
+      "evidence": "gões. Seja como for, estes guerreiros malignos são verdadeiros exércitos em uma"
+    },
+    {
+      "source": "sua Resistência",
+      "relation": "is_a",
+      "target": "considera",
+      "evidence": "T Alpha, página 69), sua Resistência é considera"
+    },
+    {
+      "source": "sua Resistência",
+      "relation": "is_a",
+      "target": "conside",
+      "evidence": " Alph a, página 69), sua Resistência é conside"
+    },
+    {
+      "source": "vida do lobo-domar",
+      "relation": "is_a",
+      "target": "tudo",
+      "evidence": " vida do lobo-domar é tudo, exceto comedida. Bala nas costas: você "
+    },
+    {
+      "source": "Enquanto o impostor",
+      "relation": "is_a",
+      "target": "espião especializado em disfarces",
+      "evidence": "acante ou dominante. Enquanto o impostor é um espião especializado em disfarces"
+    },
+    {
+      "source": "Os sacerdotes negros",
+      "relation": "is_a",
+      "target": "clérigos de Leen",
+      "evidence": "acante ou dominante. Os sacerdotes negros são clérigos de Leen, o Deus da Morte"
+    },
+    {
+      "source": "o fogo",
+      "relation": "is_a",
+      "target": "a das",
+      "evidence": "podem lançar magias, o fogo é uma das"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "imune a todas as formas de cegueira",
+      "evidence": "Olhar sombrio: você é imune a todas as formas de cegueira, e também é capaz"
+    },
+    {
+      "source": "e também",
+      "relation": "is_a",
+      "target": "capaz",
+      "evidence": " formas de cegueira, e também é capaz"
+    },
+    {
+      "source": "você",
+      "relation": "is_a",
+      "target": "imune a todas as formas de cegueira e também é capaz",
+      "evidence": "Olhar sombrio: você é imune a todas as formas de cegueira e também é capaz "
+    },
+    {
+      "source": "o rei dos dragões negros",
+      "relation": "is_a",
+      "target": "imune a todas as formas de ceguei",
+      "evidence": "unto. Olhar sombrio: o rei dos dragões negros é imune a todas as formas de ceguei"
+    },
+    {
+      "source": "elas",
+      "relation": "is_a",
+      "target": "muito pesadas e só podem ser utiliza",
+      "evidence": " acima). Entretanto, elas são muito pesadas e só podem ser utiliza"
+    },
+    {
+      "source": "fugir e viver mais um dia sempre",
+      "relation": "is_a",
+      "target": "que lutar e",
+      "evidence": "eriência (para você, fugir e viver mais um dia sempre é que lutar e "
+    },
+    {
+      "source": "Habilidade não",
+      "relation": "is_a",
+      "target": "inc",
+      "evidence": "e atacar com FA4+1d. Habilidade não é inc"
+    },
+    {
+      "source": "Tudo aquilo que ouvimos",
+      "relation": "is_a",
+      "target": "graças ao ar que nos cerca",
+      "evidence": "ia +1. • Criar Sons. Tudo aquilo que ouvimos é graças ao ar que nos cerca. Como"
+    },
+    {
+      "source": "Mas o fato",
+      "relation": "is_a",
+      "target": "que os dragões metálicos são aqueles que mais",
+      "evidence": "u não, ninguém sabe. Mas o fato é que os dragões metálicos são aqueles que mais"
+    },
+    {
+      "source": "Mas o fato é que os dragões metálicos",
+      "relation": "is_a",
+      "target": "aqueles que mais",
+      "evidence": "u não, ninguém sabe. Mas o fato é que os dragões metálicos são aqueles que mais"
+    },
+    {
+      "source": "e a duração",
+      "relation": "is_a",
+      "target": "considerada sustentável",
+      "evidence": "ação consome 10 PMs, e a duração é considerada sustentável. Este poder e"
+    },
+    {
+      "source": "O primeiro sopro",
+      "relation": "is_a",
+      "target": "a rajada ácida simil",
+      "evidence": "al (terra). • Sopro. O primeiro sopro é uma rajada ácida simil"
+    },
+    {
+      "source": "Os adultos da espécie",
+      "relation": "is_a",
+      "target": "capazes de controlar as águas",
+      "evidence": ". • Controlar Águas. Os adultos da espécie são capazes de controlar as águas, p"
+    },
+    {
+      "source": "O segundo",
+      "relation": "is_a",
+      "target": "gás de lentidão",
+      "evidence": "dos dragões verdes. O segundo é um gás de lentidão, que reduz a Habilidade dos alvos em -2."
+    },
+    {
+      "source": "e orcs",
+      "relation": "is_a",
+      "target": "imunes",
+      "evidence": " e orcs são imunes. Beijo de Tenebra, 3N F0, H3, R0, A0, Pd"
+    },
+    {
+      "source": "Centenas dessas",
+      "relation": "is_a",
+      "target": "invocadas todos os anos",
+      "evidence": "116/144 Fera Negra “Centenas dessas são invocadas todos os anos. Algumas ficam"
+    },
+    {
+      "source": "Ataques de uma horda",
+      "relation": "is_a",
+      "target": "sempre direcionados simultaneamen",
+      "evidence": "de todos os lugares. Ataques de uma horda são sempre direcionados simultaneamen"
+    },
+    {
+      "source": "Dragões",
+      "relation": "is_a",
+      "target": "imunes à pass",
+      "evidence": " Invulnerabilidades. Dragões são imunes à pass"
+    },
+    {
+      "source": "Quando",
+      "relation": "effect",
+      "target": "dano em um alvo",
+      "evidence": "no. Eu sou a Doença. Quando causa dano em um alvo, o elemental"
+    },
+    {
+      "source": "Para um dragão a magia",
+      "relation": "is_a",
+      "target": "intuitiva",
+      "evidence": " Inato (+2 pontos) . Para um dragão a magia é intuitiva. Eles rece"
+    },
+    {
+      "source": "Para um dragão de Tamu-ra a magia",
+      "relation": "is_a",
+      "target": "intuitiva",
+      "evidence": " Inato (+2 pontos) . Para um dragão de Tamu-ra a magia é intuitiva"
+    },
+    {
+      "source": "Beluhga",
+      "relation": "is_a",
+      "target": "a divindade menor das Montan",
+      "evidence": "PVs perdidos. Nicho: Beluhga é a divindade menor das Montan"
+    },
+    {
+      "source": "A vida",
+      "relation": "is_a",
+      "target": "jogo que se joga melhor nas sombras",
+      "evidence": "dos Dragões Negros “ A vida é um jogo que se joga melhor nas sombras.” — Mzzil"
+    },
+    {
+      "source": "O tipo de dano desse ataque",
+      "relation": "is_a",
+      "target": "fogo e será considerado mági",
+      "evidence": "A no próximo ataque. O tipo de dano desse ataque é fogo e será considerado mági"
+    },
+    {
+      "source": "lutar com um Parceiro",
+      "relation": "is_a",
+      "target": "o único caso em que você pode derrot",
+      "evidence": " Parceiro). Atenção: lutar com um Parceiro é o único caso em que você pode derrot"
+    },
+    {
+      "source": "que",
+      "relation": "is_a",
+      "target": "bem parecida",
+      "evidence": "esvantagens Únicas), que é bem parecida. Um personagem com Clericato é "
+    },
+    {
+      "source": "Água ou Luz",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "uz 1, Clericato (ou Medicina) Custo: 2 PMs para cada 1d PVs (v"
+    },
+    {
+      "source": "Água ou Luz",
+      "relation": "cost_pm",
+      "target": "6",
+      "evidence": "ias: Água ou Luz 4, Clericato Custo: 6 PMs Duração: instantânea Alcance"
+    },
+    {
+      "source": "Terra ou Trevas",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": " Terra ou Trevas 1, Telepatia Custo: 1 PM por criatura Duração: veja ab"
+    },
+    {
+      "source": "Ar ou Luz",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "orpal Exigências: Ar ou Luz 4 Custo: 1 PM por turno Duração: sustentáve"
+    },
+    {
+      "source": "por pessoa Duração",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "revas 3 Custo: 1 PM por pessoa Duração: sustentáv"
+    },
+    {
+      "source": "padrão Este",
+      "relation": "is_a",
+      "target": "o poder máximo de trans",
+      "evidence": "instantânea Alcance: padrão Este é o poder máximo de trans"
+    },
+    {
+      "source": "ucas",
+      "relation": "is_a",
+      "target": "ofensivas",
+      "evidence": "ucas são ofensivas. Magia negra: magias que invocam o poder"
+    },
+    {
+      "source": "não",
+      "relation": "effect",
+      "target": "dano",
+      "evidence": "e a FD das vítimas, não causa dano, mas cada uma deve ser bem-sucedida em u"
+    },
+    {
+      "source": "arma do monstro",
+      "relation": "is_a",
+      "target": "a rajada de substância ácida",
+      "evidence": " Multiplo).  Saliva: arma do monstro é uma rajada de substância ácida"
+    },
+    {
+      "source": "poder",
+      "relation": "is_a",
+      "target": "idêntico à magia Petrificação",
+      "evidence": " poder é idêntico à magia Petrificação, mas apenas por contato visual. A"
+    },
+    {
+      "source": "Esse total",
+      "relation": "is_a",
+      "target": "compartilhado por todos",
+      "evidence": "o início do combate. Esse total é compartilhado por todos, e"
+    },
+    {
+      "source": "este animal robusto",
+      "relation": "is_a",
+      "target": "pró",
+      "evidence": "s também mais forte, este animal robusto é pró"
+    },
+    {
+      "source": "Não",
+      "relation": "is_a",
+      "target": "preciso falar",
+      "evidence": "ens, como um Aliado. Não é preciso falar; ela recebe seus comandos mentais. Cad"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "permitidos novos testes para um",
+      "evidence": ";  em caso de falha, não são permitidos novos testes para um"
+    },
+    {
+      "source": "Também",
+      "relation": "is_a",
+      "target": "possível contratar um armeiro ou ferreiro profis",
+      "evidence": "m mesmo personagem). Também é possível contratar um armeiro ou ferreiro profis"
+    },
+    {
+      "source": "seus restos",
+      "relation": "is_a",
+      "target": "corrompidos",
+      "evidence": "u até mesmo um deus, seus restos são corrompidos "
+    },
+    {
+      "source": "Os dragões-golens geralmente",
+      "relation": "is_a",
+      "target": "usados como guardiões para um local o",
+      "evidence": "de esforço místico. Os dragões-golens geralmente são usados como guardiões para um local o"
+    },
+    {
+      "source": "o poder de Fogo dos Kayredrann",
+      "relation": "is_a",
+      "target": "tão poderoso que também v",
+      "evidence": " trate de uma magia, o poder de Fogo dos Kayredrann é tão poderoso que também v"
+    },
+    {
+      "source": "o poder de Fogo dos dragões",
+      "relation": "is_a",
+      "target": "tão poderoso que também vai",
+      "evidence": " trate de uma magia, o poder de Fogo dos dragões é tão poderoso que também vai "
+    },
+    {
+      "source": "o poder de Fogo",
+      "relation": "is_a",
+      "target": "tão poderoso que também vai afetar criat",
+      "evidence": " trate de uma magia, o poder de Fogo é tão poderoso que também vai afetar criat"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "possível usar Reflexão ou Deflexão contra o sopr",
+      "evidence": "seja baseado em PdF, não é possível usar Reflexão ou Deflexão contra o sopr"
+    },
+    {
+      "source": "não",
+      "relation": "is_a",
+      "target": "possível usar Reflexão ou Deflexão contra o sopro",
+      "evidence": "baseado em PdF, não é possível usar Reflexão ou Deflexão contra o sopro. usando uma manobra de ataque múltiplo s"
+    },
+    {
+      "source": "uma múmia",
+      "relation": "is_a",
+      "target": "invulnerável a todos os ata",
+      "evidence": ". Invulnerabilidade: uma múmia é invulnerável a todos os ata"
+    },
+    {
+      "source": "de um ferimento assim",
+      "relation": "is_a",
+      "target": "maior",
+      "evidence": " real (perda de PVs) de um ferimento assim é maior. Para tentar quebrar ou "
+    },
+    {
+      "source": "metade do dano que você",
+      "relation": "effect",
+      "target": "será revertido em PVs para v",
+      "evidence": "or 2 PMs por ataque, metade do dano que você causa será revertido em PVs para v"
+    },
+    {
+      "source": "Suas armas e técnicas de combate",
+      "relation": "is_a",
+      "target": "terríveis contra este",
+      "evidence": "otodracos e wyverns. Suas armas e técnicas de combate são terríveis contra este"
+    },
+    {
+      "source": "Estas características",
+      "relation": "is_a",
+      "target": "típicos para dragões",
+      "evidence": "antes de se revelar. Estas características são típicos para dragões"
+    },
+    {
+      "source": "Estas características",
+      "relation": "is_a",
+      "target": "típicos para dragões adultos",
+      "evidence": "antes de se revelar. Estas características são típicos para dragões adultos. El"
+    },
+    {
+      "source": "ão",
+      "relation": "is_a",
+      "target": "a armadilha",
+      "evidence": "ão é uma armadilha, antes de se revelar. No entanto, é cert"
+    },
+    {
+      "source": "as suas escamas",
+      "relation": "is_a",
+      "target": "finas",
+      "evidence": "o dragão. ao nascer, as suas escamas são finas, pequenas e lustrosas; conforme "
+    },
+    {
+      "source": "as escamas do dragão de ouro",
+      "relation": "is_a",
+      "target": "amarelo-escuro com mancha",
+      "evidence": " animais. ao nascer, as escamas do dragão de ouro são amarelo-escuro com mancha"
+    },
+    {
+      "source": "Seu parentesco",
+      "relation": "is_a",
+      "target": "muito mais próximo dos sprites",
+      "evidence": "ragões verdadeiros. Seu parentesco é muito mais próximo dos sprites, o povo-fada. Também conhecidos como dra"
+    },
+    {
+      "source": "O Poder de Fogo de um dragonete",
+      "relation": "is_a",
+      "target": "sua arma de sopr",
+      "evidence": "Resistência à Magia. O Poder de Fogo de um dragonete é sua arma de sopr"
+    },
+    {
+      "source": "O Poder de Fogo de um dragonete",
+      "relation": "is_a",
+      "target": "sua",
+      "evidence": " Magia e Monstruoso. O Poder de Fogo de um dragonete é sua"
+    },
+    {
+      "source": "Quase todos os esqueletos",
+      "relation": "is_a",
+      "target": "silenciosos",
+      "evidence": "dem ser restaurados. Quase todos os esqueletos são silenciosos, totalmente mudo"
+    },
+    {
+      "source": "mas estarão sempre prontas a lutar por uma",
+      "relation": "effect",
+      "target": "justa",
+      "evidence": "ão obedecem ordens, mas estarão sempre prontas a lutar por uma causa justa. Uma fénix sempre ganha a iniciativa em "
+    },
+    {
+      "source": "O PdF",
+      "relation": "is_a",
+      "target": "divid",
+      "evidence": "te vezes por turno). O PdF é divid"
+    },
+    {
+      "source": "Estas Características e Focus",
+      "relation": "is_a",
+      "target": "típicos para dragões adu",
+      "evidence": "o natural ou mágico. Estas Características e Focus são típicos para dragões adu"
+    },
+    {
+      "source": "Pontos perdidos assim",
+      "relation": "is_a",
+      "target": "recuperados à propo",
+      "evidence": "rda de 1 ponto de A. Pontos perdidos assim são recuperados à propo"
+    },
+    {
+      "source": "A tartaruga-dragão",
+      "relation": "is_a",
+      "target": "completamente in",
+      "evidence": "• Invulnerabilidade. A tartaruga-dragão é completamente in"
+    },
+    {
+      "source": "ou mais",
+      "relation": "is_a",
+      "target": "automaticamente imunes",
+      "evidence": "is. Criaturas com R1 ou mais são automaticamente imunes. Além disso, mesmo se"
+    },
+    {
+      "source": "o Manual da Magia Alpha",
+      "relation": "is_a",
+      "target": "suplemento muito útil para Mestres e jogadores que desejam a",
+      "evidence": "s novidades. Enfim, o Manual da Magia Alpha é um suplemento muito útil para Mestres e jogadores que desejam a"
+    },
+    {
+      "source": "Táticas Não",
+      "relation": "is_a",
+      "target": "a boa ideia enfrentar Tarso",
+      "evidence": "R (o que for maior). Táticas Não é uma boa ideia enfrentar Tarso, e ele deixar"
+    },
+    {
+      "source": "água ou terra",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "a: Elemental (água ou terra). Custo: 2 PMs (ou mais, veja o texto). Alc"
+    },
+    {
+      "source": "Através dela",
+      "relation": "is_a",
+      "target": "possível invocar o le",
+      "evidence": "incluindo Paladinos. Através dela é possível invocar o le"
+    },
+    {
+      "source": "O Caminho do Fogo",
+      "relation": "is_a",
+      "target": "o mais tenta",
+      "evidence": "destruidor elemento. O Caminho do Fogo é o mais tenta"
+    },
+    {
+      "source": "Negra ou Elemental",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "rito). Exigências: Clericato. Custo: 1 PM por criatura"
+    },
+    {
+      "source": "Essa doença",
+      "relation": "is_a",
+      "target": "considerada uma maldição",
+      "evidence": "odos os seus testes. Essa doença é considerada uma maldição, e afeta apenas cri"
+    },
+    {
+      "source": "ao invés disso",
+      "relation": "element",
+      "target": "utilizado",
+      "evidence": "ponto de dano com o elemento utilizado, para"
+    },
+    {
+      "source": "e Negra",
+      "relation": "cost_pm",
+      "target": "20",
+      "evidence": "e ter todas as três Escolas). Custo: 20 PMs. Alc"
+    },
+    {
+      "source": "e Negra",
+      "relation": "cost_pm",
+      "target": "1",
+      "evidence": "o deve ter todas as Escolas). Custo: 1 PM ou mais. Al"
+    },
+    {
+      "source": "mas no RPG",
+      "relation": "is_a",
+      "target": "normal",
+      "evidence": "stranho, mas no RPG é normal. Este é um jogo de imaginação — e na ima"
+    },
+    {
+      "source": "o uso da magia",
+      "relation": "cost_pm",
+      "target": "2",
+      "evidence": "idade Escola: Elemental (ar). Custo: 2 PMs por turno."
+    },
+    {
+      "source": "Este item",
+      "relation": "is_a",
+      "target": "extremamente valorizado p",
+      "evidence": "1 a +5 em sua Força. Este item é extremamente valorizado p"
+    },
+    {
+      "source": "Mão do Morto Este item não",
+      "relation": "is_a",
+      "target": "a mão",
+      "evidence": "odo tipo de Góblin). Mão do Morto Este item não é uma mão"
+    },
+    {
+      "source": "a teia não",
+      "relation": "effect",
+      "target": "dano",
+      "evidence": " Se obtiver sucesso, a teia não causa dano, mas paralisa a vítima, que não pode"
+    },
+    {
+      "source": "fugir",
+      "relation": "is_a",
+      "target": "sempre considerado uma vitória",
+      "evidence": "no teste. Para eles, fugir é sempre considerado uma vitória. Tentacu"
+    },
+    {
+      "source": "estas criaturas não",
+      "relation": "is_a",
+      "target": "consideradas dragões verdadeiros",
+      "evidence": "tos) Apesar do nome, estas criaturas não são consideradas dragões verdadeiros. "
+    },
+    {
+      "source": "este caçador",
+      "relation": "is_a",
+      "target": "especializado em caçar todas as formas de m",
+      "evidence": "zas. Apesar do nome, este caçador é especializado em caçar todas as formas de m"
+    },
+    {
+      "source": "a vida",
+      "relation": "is_a",
+      "target": "jogo",
+      "evidence": ". Para o carteador, a vida é um jogo. Por colocar o próprio destino nas mãos "
+    },
+    {
+      "source": "Essas estatísticas",
+      "relation": "is_a",
+      "target": "as estatísticas de Glórienn antes dos",
+      "evidence": " a outra arma. Nota: Essas estatísticas são as estatísticas de Glórienn antes dos"
+    },
+    {
+      "source": "Essas",
+      "relation": "is_a",
+      "target": "as estatísticas de Rhumnam antes dos eventos mostr",
+      "evidence": " o kit ladino. Nota: Essas são as estatísticas de Rhumnam antes dos eventos mostr"
+    },
+    {
+      "source": "Gato Infernal Os gatos infernais",
+      "relation": "is_a",
+      "target": "diabos",
+      "evidence": "bados (1 a 3 em 1d). Gato Infernal Os gatos infernais são diabos "
+    },
+    {
+      "source": "Se perceberem que o adversário",
+      "relation": "is_a",
+      "target": "muito resistente",
+      "evidence": "s (F+H+1d cada uma). Se perceberem que o adversário é muito resistente, podem "
+    },
+    {
+      "source": "Se a criatura morrer por",
+      "relation": "effect",
+      "target": "desse poder",
+      "evidence": " de 1 ponto por dia. Se a criatura morrer por causa desse poder, ressurge como "
+    },
+    {
+      "source": "Dragões-esqueleto",
+      "relation": "is_a",
+      "target": "completament",
+      "evidence": "• Invulnerabilidade. Dragões-esqueleto são completament"
+    }
+  ]
+}

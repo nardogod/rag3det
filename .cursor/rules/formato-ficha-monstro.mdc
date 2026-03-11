@@ -1,0 +1,50 @@
+---
+description: Formato padrão ao exibir dados de monstros do modelo enriquecido
+alwaysApply: true
+---
+
+# Formato de ficha de monstro
+
+Quando o usuário pedir dados de um monstro (ex.: "traga X", "dados do Y"), exibir **sempre** em tabela com **todos** os campos abaixo, na ordem indicada. Campos vazios ou não aplicáveis: `—`.
+
+## Ordem dos campos
+
+1. **Nome**
+2. **Características** (F, H, R, A, PdF)
+3. **PV / PM**
+4. **Escala** (19N, 61S, 84K — Manual dos Monstros)
+5. **Comportamento**
+6. **Tamanho** (altura_tamanho)
+7. **Peso**
+8. **Habitat**
+9. **Comportamento dia/noite**
+10. **Combate** (comportamento_combate)
+11. **Ataques** (ataques_especificos — resumir em texto)
+11. **Imunidades**
+12. **Fraquezas**
+13. **Habilidades** (habilidades + habilidades_extra)
+14. **Movimento**
+15. **Origem criação**
+16. **Uso cultural**
+17. **Vínculo montaria**
+18. **Veneno**
+19. **Resistência controle**
+20. **Necessidades**
+21. **Recuperação**
+22. **Táticas**
+23. **Tesouro**
+24. **Fonte**
+
+## Implementação
+
+- **`formatar_ficha_monstro_tabela()`** em `src/utils/formatar_monstro.py`
+- **`scripts/sample_monstros.py`** — exibe monstros neste formato
+- **`scripts/reindexar_monstros.py`** — indexa no Chroma com este formato (RAG)
+
+## Regras
+
+- Listas vazias ou null → `—`
+- **Frontend**: exibir apenas linhas com valor preenchido (campos vazios não aparecem na ficha)
+- `ataques_especificos`: formatar como "Nome (FA/FD); Nome2 (dano)" 
+- `habilidades`: concatenar array + habilidades_extra
+- **Loot** (campo `tesouro`): extrair da seção Tesouro do livro; anotar em todos os monstros

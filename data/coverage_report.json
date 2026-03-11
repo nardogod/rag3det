@@ -1,0 +1,9 @@
+{
+  "entities_file": true,
+  "entities_count": 2986,
+  "properties_file": true,
+  "relations_file": true,
+  "relations_count": 857,
+  "taxonomy_file": true,
+  "clusters_count": 10
+}

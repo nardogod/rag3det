@@ -1,0 +1,33 @@
+---
+description: Especificação de Vantagens e Desvantagens Únicas no 3D&T
+alwaysApply: true
+---
+
+# Vantagens e Desvantagens Únicas
+
+É **obrigatório** especificar claramente quando um item é **Único** (cada personagem pode ter apenas um).
+
+## Tipos no JSON (`vantagens_turbinado.json`)
+
+| tipo        | unica   | Significado |
+|-------------|---------|-------------|
+| `unica`     | `true`  | **Vantagem Única** (raça). Cada personagem pode ter apenas uma. |
+| `vantagem`  | `false` | Vantagem comum (pode ter várias). |
+| `vantagem`  | `true`  | Vantagem Única não-racial (se existir). |
+| `desvantagem` | `false` | Desvantagem comum. |
+| `desvantagem` | `true`  | **Desvantagem Única** (apenas uma por personagem). |
+
+## Regras
+
+1. **Raças** = `tipo: "unica"` e `unica: true`. São as Vantagens Únicas raciais.
+2. Ao adicionar novos itens, definir `unica: true` quando o manual indicar "apenas uma" ou "única".
+3. Na interface, exibir sempre o rótulo explícito: "Vantagem Única" ou "Desvantagem Única" quando `unica === true`.
+4. Raça: label "Raça (Vantagem Única)" e subtítulo "Cada personagem pode ter apenas uma Única".
+
+## Implementação
+
+- **`frontend/src/data/vantagens.ts`** — `racas` = itens com `tipo === "unica"` ou `unica === true`
+- **`frontend/src/data/racaPacote.ts`** — vantagens, desvantagens e modificadores automáticos por raça
+- **`frontend/src/ui/FichaPersonagem/FichaPersonagemPage.tsx`** — labels, modais, exibição automática de pacote racial
+- **`frontend/src/core/dependencias.ts`** — `estadoPersonagem.vantagens` inclui vantagens raciais para filtros
+- **`frontend/src/data/vantagens_turbinado.json`** — campo `unica` obrigatório em todos os itens

@@ -1,0 +1,48 @@
+{
+  "total_entities": 1344,
+  "valid_entities": 1344,
+  "suspect_entities": 1642,
+  "entities_by_type": {
+    "MONSTRO": 761,
+    "MAGIA": 163,
+    "VANTAGEM": 97,
+    "ENTIDADE": 295,
+    "PERÍCIA": 28
+  },
+  "properties_coverage": {
+    "MONSTRO": 0.33026719229084534,
+    "MAGIA": 0.018404907975460124
+  },
+  "relations_count": 857,
+  "top_isolated_entities": [
+    "RPG",
+    "O jogo",
+    "Magia negra",
+    "Magia Elemental",
+    "Magia Branca",
+    "e ar",
+    "Em quase todos os casos",
+    "COMBATE",
+    "A critério do Mestre",
+    "No entanto",
+    "De modo geral",
+    "e assim por diante",
+    "Código de Honra",
+    "Inculto",
+    "Voô",
+    "Em alguns casos",
+    "Má Fama",
+    "Magias",
+    "Morto-Vivo",
+    "Má Fama e Modelo Especial"
+  ],
+  "cluster_issues": [],
+  "recommendations": [
+    "Adicionar mais regex para custo PM e escola em magias",
+    "Adicionar mais regex para stats (F: H: R: A:) de monstros",
+    "Revisar entidades isoladas no grafo (ex.: ['RPG', 'O jogo', 'Magia negra'])",
+    "Muitas entidades suspeitas; revisar filtros em entity_cleaner",
+    "Precision heurística (0.45) abaixo de 0.7"
+  ],
+  "precision_heuristic": 0.45
+}
