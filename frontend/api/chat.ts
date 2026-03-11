@@ -1,3 +1,5 @@
+import { demoKnowledgeBase, type KnowledgeEntry } from "./demoKnowledge";
+
 type ChatRole = "user" | "assistant";
 type ChatLanguage = "pt" | "en";
 
@@ -11,15 +13,7 @@ interface ChatRequestBody {
   language?: ChatLanguage;
 }
 
-interface KnowledgeEntry {
-  title: string;
-  kind: "magia" | "vantagem" | "desvantagem" | "raca" | "item" | "monstro";
-  source: string;
-  content: string;
-}
-
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
-let knowledgeBasePromise: Promise<KnowledgeEntry[]> | null = null;
 
 function normalize(value: string): string {
   return value
@@ -33,96 +27,6 @@ function normalize(value: string): string {
 
 function uniqueTokens(text: string): string[] {
   return [...new Set(normalize(text).split(" ").filter((token) => token.length >= 2))];
-}
-
-function safeString(value: unknown): string {
-  return typeof value === "string" ? value : "";
-}
-
-async function buildKnowledgeBase(): Promise<KnowledgeEntry[]> {
-  const [{ default: itens }, { default: monstros }, { default: vantagens }] = await Promise.all([
-    import("../src/data/itens_3dt.json"),
-    import("../src/data/monstros.json"),
-    import("../src/data/vantagens_turbinado.json"),
-  ]);
-
-  const monstroEntries = (Array.isArray(monstros) ? monstros : []).map((monstro) => {
-    const habilidades = Array.isArray(monstro.habilidades) ? monstro.habilidades.join("; ") : "";
-    const ataques = Array.isArray(monstro.ataques_especificos)
-      ? monstro.ataques_especificos
-          .map((ataque) =>
-            [safeString(ataque?.nome), safeString(ataque?.fa_fd), safeString(ataque?.dano)]
-              .filter(Boolean)
-              .join(" ")
-          )
-          .join("; ")
-      : "";
-
-    return {
-      title: safeString(monstro.nome),
-      kind: "monstro" as const,
-      source: safeString(monstro.livro || monstro.fonte_referencia || "Bestiário 3D&T"),
-      content: [
-        safeString(monstro.nome),
-        safeString(monstro.descricao),
-        safeString(monstro.tipo),
-        safeString(monstro.comportamento),
-        safeString(monstro.comportamento_combate),
-        habilidades,
-        ataques,
-        safeString(monstro.taticas),
-        safeString(monstro.tesouro),
-      ]
-        .filter(Boolean)
-        .join(" "),
-    };
-  });
-
-  const vantagemEntries = (Array.isArray(vantagens) ? vantagens : []).map((item) => ({
-    title: safeString(item.nome),
-    kind:
-      item.tipo === "desvantagem"
-        ? ("desvantagem" as const)
-        : item.tipo === "unica"
-          ? ("raca" as const)
-          : ("vantagem" as const),
-    source: safeString(item.livro || "Manual 3D&T Turbinado"),
-    content: [
-      safeString(item.nome),
-      safeString(item.custo),
-      safeString(item.efeito),
-      safeString(item.livro),
-      typeof item.pagina === "number" ? `página ${item.pagina}` : "",
-    ]
-      .filter(Boolean)
-      .join(" "),
-  }));
-
-  const itemEntries = (Array.isArray(itens) ? itens : []).map((item) => ({
-    title: safeString(item.nome),
-    kind: "item" as const,
-    source: safeString(item.livro || "Itens 3D&T"),
-    content: [
-      safeString(item.nome),
-      safeString(item.tipo),
-      safeString(item.bonus),
-      safeString(item.efeito),
-      safeString(item.custo),
-    ]
-      .filter(Boolean)
-      .join(" "),
-  }));
-
-  return [...monstroEntries, ...vantagemEntries, ...itemEntries].filter(
-    (entry) => entry.title && entry.content
-  );
-}
-
-async function getKnowledgeBase(): Promise<KnowledgeEntry[]> {
-  if (!knowledgeBasePromise) {
-    knowledgeBasePromise = buildKnowledgeBase();
-  }
-  return knowledgeBasePromise;
 }
 
 function scoreEntry(entry: KnowledgeEntry, query: string): number {
@@ -146,8 +50,7 @@ function scoreEntry(entry: KnowledgeEntry, query: string): number {
 }
 
 async function retrieveContext(query: string): Promise<KnowledgeEntry[]> {
-  const knowledgeBase = await getKnowledgeBase();
-  return knowledgeBase
+  return demoKnowledgeBase
     .map((entry) => ({ entry, score: scoreEntry(entry, query) }))
     .filter((item) => item.score > 0)
     .sort((left, right) => right.score - left.score)
@@ -175,8 +78,8 @@ function fallbackAnswer(query: string, context: KnowledgeEntry[], language: Chat
     ...lines,
     "",
     language === "en"
-      ? "If you configure OPENAI_API_KEY on Vercel, I can also synthesize a more natural answer from these sources."
-      : "Se você configurar OPENAI_API_KEY no Vercel, eu também consigo sintetizar uma resposta mais natural a partir dessas fontes.",
+      ? "This Vercel deployment is running in demo mode with a curated 3D&T knowledge sample."
+      : "Este deploy do Vercel está rodando em modo de demonstração com uma base curada de exemplos de 3D&T.",
   ].join("\n");
 }
 
